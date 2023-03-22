@@ -3,18 +3,16 @@ library(openxlsx)
 library(stringr)
 
 # create crosswalk
-zip_county <- read.xlsx("Data/ZIP_COUNTY_122021.xlsx") %>% 
-  filter(usps_zip_pref_state == "MN") %>% 
-  select(zip, county) %>% 
-  mutate(county_fip = str_sub(county,start= 3),
-         state_fip = str_sub(county, end = -4))
-
+# micro/metro/csa
 metro_county <- read.xlsx("Data/list1_2020.xlsx", startRow = 3) %>% 
-  filter(FIPS.State.Code == 27)
+  filter(FIPS.State.Code == 27) %>% 
+  mutate(County = str_sub(`County/County.Equivalent`,end= -8))
 
-crosswalk <- zip_county %>% 
-  left_join(metro_county, by = c("county_fip" = "FIPS.County.Code",
-                                 "state_fip" = "FIPS.State.Code" ))
+# zip/city/county
+zip_city_county <- read.xlsx("Data/zip_city_county.xlsx") 
+
+crosswalk <- zip_city_county %>% 
+  left_join(metro_county)
 
 write.csv(crosswalk, "Data/zip_crosswalk.csv")
 

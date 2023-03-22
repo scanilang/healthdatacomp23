@@ -1,0 +1,1472 @@
+"","zip","county","county_fip","state_fip","CBSA.Code","Metropolitan.Division.Code","CSA.Code","CBSA.Title","Metropolitan/Micropolitan.Statistical.Area","Metropolitan.Division.Title","CSA.Title","County/County.Equivalent","State.Name","Central/Outlying.County"
+"1","55811","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"2","55732","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"3","55765","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"4","55345","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"5","55374","27171","171","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Wright County","Minnesota","Central"
+"6","55374","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"7","55115","27163","163","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Washington County","Minnesota","Central"
+"8","55055","27163","163","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Washington County","Minnesota","Central"
+"9","55047","27163","163","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Washington County","Minnesota","Central"
+"10","55448","27003","003","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Anoka County","Minnesota","Central"
+"11","55322","27019","019","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Carver County","Minnesota","Central"
+"12","55330","27141","141","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Sherburne County","Minnesota","Central"
+"13","55330","27171","171","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Wright County","Minnesota","Central"
+"14","55330","27003","003","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Anoka County","Minnesota","Central"
+"15","55985","27049","049","27","39860",NA,"378","Red Wing, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Goodhue County","Minnesota","Central"
+"16","55985","27039","039","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Dodge County","Minnesota","Outlying"
+"17","55985","27147","147","27","36940",NA,"378","Owatonna, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Steele County","Minnesota","Central"
+"18","56048","27013","013","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Blue Earth County","Minnesota","Central"
+"19","56048","27161","161","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"20","56377","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"21","56377","27009","009","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Benton County","Minnesota","Central"
+"22","56368","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"23","56319","27153","153","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"24","56319","27041","041","27","10820",NA,NA,"Alexandria, MN","Micropolitan Statistical Area",NA,NA,"Douglas County","Minnesota","Central"
+"25","56449","27035","035","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Crow Wing County","Minnesota","Central"
+"26","56449","27097","097","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"27","56327","27041","041","27","10820",NA,NA,"Alexandria, MN","Micropolitan Statistical Area",NA,NA,"Douglas County","Minnesota","Central"
+"28","56327","27121","121","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"29","56183","27101","101","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"30","56183","27033","033","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"31","56150","27063","063","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"32","56529","27027","027","27","22020",NA,"244","Fargo, ND-MN","Metropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Clay County","Minnesota","Central"
+"33","56482","27153","153","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"34","56482","27159","159","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"35","56482","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"36","56587","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"37","55479","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"38","56296","27155","155","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"39","56139","27117","117","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"40","56052","27079","079","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Le Sueur County","Minnesota","Outlying"
+"41","56052","27131","131","27","22060",NA,"378","Faribault-Northfield, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Rice County","Minnesota","Central"
+"42","56255","27127","127","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"43","56637","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"44","56035","27147","147","27","36940",NA,"378","Owatonna, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Steele County","Minnesota","Central"
+"45","56035","27047","047","27","10660",NA,NA,"Albert Lea, MN","Micropolitan Statistical Area",NA,NA,"Freeborn County","Minnesota","Central"
+"46","55417","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"47","55803","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"48","55372","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"49","55372","27139","139","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Scott County","Minnesota","Central"
+"50","55056","27025","025","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Chisago County","Minnesota","Outlying"
+"51","55056","27059","059","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Isanti County","Minnesota","Outlying"
+"52","55127","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"53","55315","27019","019","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Carver County","Minnesota","Central"
+"54","56314","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"55","56314","27097","097","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"56","56178","27083","083","27","32140",NA,NA,"Marshall, MN","Micropolitan Statistical Area",NA,NA,"Lyon County","Minnesota","Central"
+"57","56178","27081","081","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"58","56121","27091","091","27","21860",NA,NA,"Fairmont, MN","Micropolitan Statistical Area",NA,NA,"Martin County","Minnesota","Central"
+"59","56137","27105","105","27","49380",NA,NA,"Worthington, MN","Micropolitan Statistical Area",NA,NA,"Nobles County","Minnesota","Central"
+"60","56137","27033","033","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"61","56137","27063","063","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"62","56225","27011","011","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"63","56544","27005","005","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"64","56544","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"65","56570","27005","005","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"66","56621","27119","119","27","24220",NA,NA,"Grand Forks, ND-MN","Metropolitan Statistical Area",NA,NA,"Polk County","Minnesota","Central"
+"67","56621","27087","087","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"68","56621","27029","029","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"69","55370","27085","085","27","26780",NA,"378","Hutchinson, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","McLeod County","Minnesota","Central"
+"70","56036","27047","047","27","10660",NA,NA,"Albert Lea, MN","Micropolitan Statistical Area",NA,NA,"Freeborn County","Minnesota","Central"
+"71","56343","27149","149","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"72","56343","27041","041","27","10820",NA,NA,"Alexandria, MN","Micropolitan Statistical Area",NA,NA,"Douglas County","Minnesota","Central"
+"73","56343","27121","121","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"74","56128","27101","101","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"75","56128","27117","117","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"76","56128","27105","105","27","49380",NA,NA,"Worthington, MN","Micropolitan Statistical Area",NA,NA,"Nobles County","Minnesota","Central"
+"77","56128","27133","133","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"78","56276","27011","011","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"79","56276","27073","073","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"80","56054","27143","143","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"81","56054","27103","103","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Nicollet County","Minnesota","Central"
+"82","56755","27069","069","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"83","56654","27071","071","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"84","55713","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"85","55487","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"86","56333","27009","009","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Benton County","Minnesota","Central"
+"87","55008","27059","059","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Isanti County","Minnesota","Outlying"
+"88","55008","27025","025","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Chisago County","Minnesota","Outlying"
+"89","55425","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"90","55808","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"91","55748","27001","001","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"92","55748","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"93","55381","27085","085","27","26780",NA,"378","Hutchinson, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","McLeod County","Minnesota","Central"
+"94","55381","27171","171","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Wright County","Minnesota","Central"
+"95","55101","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"96","55027","27157","157","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Wabasha County","Minnesota","Outlying"
+"97","55027","27049","049","27","39860",NA,"378","Red Wing, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Goodhue County","Minnesota","Central"
+"98","55439","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"99","55328","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"100","55328","27171","171","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Wright County","Minnesota","Central"
+"101","55328","27019","019","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Carver County","Minnesota","Central"
+"102","56031","27091","091","27","21860",NA,NA,"Fairmont, MN","Micropolitan Statistical Area",NA,NA,"Martin County","Minnesota","Central"
+"103","55977","27099","099","27","12380",NA,"462","Austin, MN","Micropolitan Statistical Area",NA,"Rochester-Austin, MN","Mower County","Minnesota","Central"
+"104","56014","27043","043","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"105","56021","27103","103","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Nicollet County","Minnesota","Central"
+"106","56443","27153","153","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"107","56443","27097","097","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"108","56258","27083","083","27","32140",NA,NA,"Marshall, MN","Micropolitan Statistical Area",NA,NA,"Lyon County","Minnesota","Central"
+"109","56258","27127","127","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"110","56271","27023","023","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"111","56271","27151","151","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"112","56289","27121","121","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"113","56289","27151","151","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"114","56289","27067","067","27","48820",NA,NA,"Willmar, MN","Micropolitan Statistical Area",NA,NA,"Kandiyohi County","Minnesota","Central"
+"115","56291","27081","081","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"116","56291","27083","083","27","32140",NA,NA,"Marshall, MN","Micropolitan Statistical Area",NA,NA,"Lyon County","Minnesota","Central"
+"117","56291","27173","173","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"118","56477","27159","159","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"119","56477","27021","021","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Cass County","Minnesota","Outlying"
+"120","56477","27005","005","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"121","56477","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"122","56571","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"123","56672","27021","021","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Cass County","Minnesota","Outlying"
+"124","56660","27071","071","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"125","55919","27055","055","27","29100",NA,NA,"La Crosse-Onalaska, WI-MN","Metropolitan Statistical Area",NA,NA,"Houston County","Minnesota","Central"
+"126","55354","27085","085","27","26780",NA,"378","Hutchinson, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","McLeod County","Minnesota","Central"
+"127","56641","27021","021","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Cass County","Minnesota","Outlying"
+"128","55054","27139","139","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Scott County","Minnesota","Central"
+"129","55602","27075","075","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"Lake County","Minnesota","Outlying"
+"130","55602","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"131","56552","27005","005","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"132","56552","27027","027","27","22020",NA,"244","Fargo, ND-MN","Metropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Clay County","Minnesota","Central"
+"133","56174","27033","033","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"134","55085","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"135","55982","27039","039","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Dodge County","Minnesota","Outlying"
+"136","55982","27099","099","27","12380",NA,"462","Austin, MN","Micropolitan Statistical Area",NA,"Rochester-Austin, MN","Mower County","Minnesota","Central"
+"137","56166","27033","033","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"138","56166","27127","127","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"139","56125","27101","101","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"140","56562","27027","027","27","22020",NA,"244","Fargo, ND-MN","Metropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Clay County","Minnesota","Central"
+"141","55410","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"142","55369","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"143","55346","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"144","55343","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"145","55117","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"146","55441","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"147","55447","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"148","55992","27049","049","27","39860",NA,"378","Red Wing, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Goodhue County","Minnesota","Central"
+"149","55947","27055","055","27","29100",NA,NA,"La Crosse-Onalaska, WI-MN","Metropolitan Statistical Area",NA,NA,"Houston County","Minnesota","Central"
+"150","55947","27169","169","27","49100",NA,NA,"Winona, MN","Micropolitan Statistical Area",NA,NA,"Winona County","Minnesota","Central"
+"151","55959","27169","169","27","49100",NA,NA,"Winona, MN","Micropolitan Statistical Area",NA,NA,"Winona County","Minnesota","Central"
+"152","56085","27127","127","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"153","56085","27015","015","27","35580",NA,"359","New Ulm, MN","Micropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Brown County","Minnesota","Central"
+"154","56082","27103","103","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Nicollet County","Minnesota","Central"
+"155","56082","27079","079","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Le Sueur County","Minnesota","Outlying"
+"156","56262","27151","151","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"157","56262","27023","023","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"158","56134","27133","133","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"159","56474","27035","035","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Crow Wing County","Minnesota","Central"
+"160","56474","27021","021","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Cass County","Minnesota","Outlying"
+"161","56545","27107","107","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"162","56623","27071","071","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"163","56623","27077","077","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"164","56556","27119","119","27","24220",NA,NA,"Grand Forks, ND-MN","Metropolitan Statistical Area",NA,NA,"Polk County","Minnesota","Central"
+"165","55712","27115","115","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"166","56083","27015","015","27","35580",NA,"359","New Ulm, MN","Micropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Brown County","Minnesota","Central"
+"167","56083","27033","033","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"168","56083","27127","127","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"169","56212","27073","073","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"170","55605","27031","031","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"171","56089","27047","047","27","10660",NA,NA,"Albert Lea, MN","Micropolitan Statistical Area",NA,NA,"Freeborn County","Minnesota","Central"
+"172","56720","27069","069","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"173","55467","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"174","56371","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"175","55361","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"176","55010","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"177","56670","27007","007","27","13420",NA,NA,"Bemidji, MN","Micropolitan Statistical Area",NA,NA,"Beltrami County","Minnesota","Central"
+"178","55769","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"179","55769","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"180","55923","27109","109","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Olmsted County","Minnesota","Central"
+"181","55923","27045","045","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Fillmore County","Minnesota","Outlying"
+"182","55923","27169","169","27","49100",NA,NA,"Winona, MN","Micropolitan Statistical Area",NA,NA,"Winona County","Minnesota","Central"
+"183","55927","27039","039","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Dodge County","Minnesota","Outlying"
+"184","55736","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"185","55736","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"186","55736","27017","017","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"Carlton County","Minnesota","Outlying"
+"187","55347","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"188","55105","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"189","55074","27025","025","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Chisago County","Minnesota","Outlying"
+"190","55036","27115","115","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"191","55987","27169","169","27","49100",NA,NA,"Winona, MN","Micropolitan Statistical Area",NA,NA,"Winona County","Minnesota","Central"
+"192","55961","27099","099","27","12380",NA,"462","Austin, MN","Micropolitan Statistical Area",NA,"Rochester-Austin, MN","Mower County","Minnesota","Central"
+"193","55961","27045","045","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Fillmore County","Minnesota","Outlying"
+"194","55969","27169","169","27","49100",NA,NA,"Winona, MN","Micropolitan Statistical Area",NA,NA,"Winona County","Minnesota","Central"
+"195","55991","27109","109","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Olmsted County","Minnesota","Central"
+"196","55991","27157","157","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Wabasha County","Minnesota","Outlying"
+"197","56050","27079","079","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Le Sueur County","Minnesota","Outlying"
+"198","56050","27013","013","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Blue Earth County","Minnesota","Central"
+"199","56716","27125","125","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"200","56716","27119","119","27","24220",NA,NA,"Grand Forks, ND-MN","Metropolitan Statistical Area",NA,NA,"Polk County","Minnesota","Central"
+"201","56461","27057","057","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"202","56461","27021","021","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Cass County","Minnesota","Outlying"
+"203","56131","27101","101","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"204","56131","27063","063","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"205","56131","27033","033","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"206","56131","27105","105","27","49380",NA,NA,"Worthington, MN","Micropolitan Statistical Area",NA,NA,"Nobles County","Minnesota","Central"
+"207","56277","27067","067","27","48820",NA,NA,"Willmar, MN","Micropolitan Statistical Area",NA,NA,"Kandiyohi County","Minnesota","Central"
+"208","56277","27129","129","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"209","55733","27017","017","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"Carlton County","Minnesota","Outlying"
+"210","55733","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"211","56019","27015","015","27","35580",NA,"359","New Ulm, MN","Micropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Brown County","Minnesota","Central"
+"212","56019","27165","165","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"213","56019","27033","033","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"214","56434","27159","159","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"215","56434","27153","153","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"216","56358","27095","095","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Mille Lacs County","Minnesota","Outlying"
+"217","56358","27059","059","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Isanti County","Minnesota","Outlying"
+"218","56358","27065","065","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"219","56302","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"220","56181","27091","091","27","21860",NA,NA,"Fairmont, MN","Micropolitan Statistical Area",NA,NA,"Martin County","Minnesota","Central"
+"221","56520","27167","167","27","47420",NA,"244","Wahpeton, ND-MN","Micropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Wilkin County","Minnesota","Outlying"
+"222","56581","27107","107","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"223","56386","27095","095","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Mille Lacs County","Minnesota","Outlying"
+"224","56525","27027","027","27","22020",NA,"244","Fargo, ND-MN","Metropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Clay County","Minnesota","Central"
+"225","55724","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"226","56591","27005","005","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"227","56047","27043","043","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"228","55791","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"229","55406","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"230","55409","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"231","55734","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"232","55360","27019","019","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Carver County","Minnesota","Central"
+"233","55340","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"234","55080","27025","025","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Chisago County","Minnesota","Outlying"
+"235","55080","27059","059","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Isanti County","Minnesota","Outlying"
+"236","55040","27059","059","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Isanti County","Minnesota","Outlying"
+"237","55040","27003","003","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Anoka County","Minnesota","Central"
+"238","55043","27163","163","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Washington County","Minnesota","Central"
+"239","55044","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"240","55044","27139","139","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Scott County","Minnesota","Central"
+"241","55021","27147","147","27","36940",NA,"378","Owatonna, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Steele County","Minnesota","Central"
+"242","55021","27131","131","27","22060",NA,"378","Faribault-Northfield, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Rice County","Minnesota","Central"
+"243","55431","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"244","55446","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"245","55321","27171","171","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Wright County","Minnesota","Central"
+"246","55321","27085","085","27","26780",NA,"378","Hutchinson, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","McLeod County","Minnesota","Central"
+"247","55321","27093","093","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"248","56069","27079","079","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Le Sueur County","Minnesota","Outlying"
+"249","56069","27131","131","27","22060",NA,"378","Faribault-Northfield, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Rice County","Minnesota","Central"
+"250","56734","27069","069","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"251","56728","27069","069","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"252","56373","27009","009","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Benton County","Minnesota","Central"
+"253","56373","27097","097","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"254","56164","27081","081","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"255","56164","27117","117","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"256","56303","27009","009","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Benton County","Minnesota","Central"
+"257","56303","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"258","56119","27105","105","27","49380",NA,NA,"Worthington, MN","Micropolitan Statistical Area",NA,NA,"Nobles County","Minnesota","Central"
+"259","56119","27063","063","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"260","56575","27005","005","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"261","55007","27065","065","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"262","55007","27115","115","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"263","55312","27143","143","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"264","55312","27085","085","27","26780",NA,"378","Hutchinson, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","McLeod County","Minnesota","Central"
+"265","55973","27109","109","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Olmsted County","Minnesota","Central"
+"266","55973","27039","039","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Dodge County","Minnesota","Outlying"
+"267","55973","27099","099","27","12380",NA,"462","Austin, MN","Micropolitan Statistical Area",NA,"Rochester-Austin, MN","Mower County","Minnesota","Central"
+"268","55957","27157","157","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Wabasha County","Minnesota","Outlying"
+"269","55816","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"270","56185","27101","101","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"271","56185","27105","105","27","49380",NA,NA,"Worthington, MN","Micropolitan Statistical Area",NA,NA,"Nobles County","Minnesota","Central"
+"272","56020","27047","047","27","10660",NA,NA,"Albert Lea, MN","Micropolitan Statistical Area",NA,NA,"Freeborn County","Minnesota","Central"
+"273","55411","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"274","55421","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"275","55421","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"276","55421","27003","003","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Anoka County","Minnesota","Central"
+"277","55402","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"278","55356","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"279","55391","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"280","55116","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"281","55122","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"282","55433","27003","003","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Anoka County","Minnesota","Central"
+"283","55429","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"284","55308","27141","141","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Sherburne County","Minnesota","Central"
+"285","56001","27013","013","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Blue Earth County","Minnesota","Central"
+"286","56001","27103","103","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Nicollet County","Minnesota","Central"
+"287","56073","27103","103","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Nicollet County","Minnesota","Central"
+"288","56073","27015","015","27","35580",NA,"359","New Ulm, MN","Micropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Brown County","Minnesota","Central"
+"289","56073","27013","013","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Blue Earth County","Minnesota","Central"
+"290","56042","27147","147","27","36940",NA,"378","Owatonna, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Steele County","Minnesota","Central"
+"291","56042","27161","161","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"292","56042","27047","047","27","10660",NA,NA,"Albert Lea, MN","Micropolitan Statistical Area",NA,NA,"Freeborn County","Minnesota","Central"
+"293","56721","27119","119","27","24220",NA,NA,"Grand Forks, ND-MN","Metropolitan Statistical Area",NA,NA,"Polk County","Minnesota","Central"
+"294","56681","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"295","56684","27119","119","27","24220",NA,NA,"Grand Forks, ND-MN","Metropolitan Statistical Area",NA,NA,"Polk County","Minnesota","Central"
+"296","56334","27041","041","27","10820",NA,NA,"Alexandria, MN","Micropolitan Statistical Area",NA,NA,"Douglas County","Minnesota","Central"
+"297","56334","27121","121","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"298","56385","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"299","56385","27121","121","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"300","56385","27041","041","27","10820",NA,NA,"Alexandria, MN","Micropolitan Statistical Area",NA,NA,"Douglas County","Minnesota","Central"
+"301","56387","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"302","56387","27009","009","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Benton County","Minnesota","Central"
+"303","56433","27057","057","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"304","56433","27021","021","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Cass County","Minnesota","Outlying"
+"305","56435","27057","057","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"306","56435","27021","021","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Cass County","Minnesota","Outlying"
+"307","56435","27035","035","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Crow Wing County","Minnesota","Central"
+"308","56465","27035","035","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Crow Wing County","Minnesota","Central"
+"309","56338","27095","095","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Mille Lacs County","Minnesota","Outlying"
+"310","56338","27097","097","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"311","56338","27035","035","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Crow Wing County","Minnesota","Central"
+"312","56220","27083","083","27","32140",NA,NA,"Marshall, MN","Micropolitan Statistical Area",NA,NA,"Lyon County","Minnesota","Central"
+"313","56220","27081","081","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"314","56220","27073","073","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"315","56220","27173","173","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"316","56655","27021","021","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Cass County","Minnesota","Outlying"
+"317","55339","27019","019","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Carver County","Minnesota","Central"
+"318","55339","27085","085","27","26780",NA,"378","Hutchinson, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","McLeod County","Minnesota","Central"
+"319","55339","27143","143","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"320","56323","27121","121","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"321","56323","27149","149","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"322","56096","27079","079","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Le Sueur County","Minnesota","Outlying"
+"323","56096","27131","131","27","22060",NA,"378","Faribault-Northfield, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Rice County","Minnesota","Central"
+"324","56096","27161","161","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"325","56484","27021","021","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Cass County","Minnesota","Outlying"
+"326","56484","27057","057","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"327","55395","27019","019","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Carver County","Minnesota","Central"
+"328","55395","27085","085","27","26780",NA,"378","Hutchinson, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","McLeod County","Minnesota","Central"
+"329","55395","27171","171","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Wright County","Minnesota","Central"
+"330","56162","27165","165","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"331","56162","27091","091","27","21860",NA,NA,"Fairmont, MN","Micropolitan Statistical Area",NA,NA,"Martin County","Minnesota","Central"
+"332","56136","27081","081","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"333","56543","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"334","56543","27167","167","27","47420",NA,"244","Wahpeton, ND-MN","Micropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Wilkin County","Minnesota","Outlying"
+"335","55450","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"336","56226","27121","121","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"337","56226","27151","151","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"338","56533","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"339","56274","27051","051","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"340","56274","27155","155","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"341","56153","27105","105","27","49380",NA,NA,"Worthington, MN","Micropolitan Statistical Area",NA,NA,"Nobles County","Minnesota","Central"
+"342","56080","27013","013","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Blue Earth County","Minnesota","Central"
+"343","55488","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"344","55924","27147","147","27","36940",NA,"378","Owatonna, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Steele County","Minnesota","Central"
+"345","55924","27039","039","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Dodge County","Minnesota","Outlying"
+"346","55767","27017","017","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"Carlton County","Minnesota","Outlying"
+"347","55767","27115","115","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"348","55349","27171","171","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Wright County","Minnesota","Central"
+"349","55107","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"350","55107","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"351","55030","27065","065","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"352","55030","27115","115","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"353","55722","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"354","56026","27047","047","27","10660",NA,NA,"Albert Lea, MN","Micropolitan Statistical Area",NA,NA,"Freeborn County","Minnesota","Central"
+"355","56026","27147","147","27","36940",NA,"378","Owatonna, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Steele County","Minnesota","Central"
+"356","56026","27161","161","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"357","55946","27049","049","27","39860",NA,"378","Red Wing, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Goodhue County","Minnesota","Central"
+"358","55946","27039","039","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Dodge County","Minnesota","Outlying"
+"359","55946","27131","131","27","22060",NA,"378","Faribault-Northfield, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Rice County","Minnesota","Central"
+"360","55946","27147","147","27","36940",NA,"378","Owatonna, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Steele County","Minnesota","Central"
+"361","56431","27001","001","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"362","56431","27035","035","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Crow Wing County","Minnesota","Central"
+"363","56446","27153","153","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"364","56446","27041","041","27","10820",NA,NA,"Alexandria, MN","Micropolitan Statistical Area",NA,NA,"Douglas County","Minnesota","Central"
+"365","56446","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"366","56219","27011","011","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"367","56219","27155","155","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"368","56519","27107","107","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"369","56519","27027","027","27","22020",NA,"244","Fargo, ND-MN","Metropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Clay County","Minnesota","Central"
+"370","55334","27143","143","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"371","55334","27103","103","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Nicollet County","Minnesota","Central"
+"372","56738","27089","089","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"373","56502","27005","005","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"374","55970","27099","099","27","12380",NA,"462","Austin, MN","Micropolitan Statistical Area",NA,"Rochester-Austin, MN","Mower County","Minnesota","Central"
+"375","55711","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"376","55796","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"377","56740","27069","069","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"378","55422","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"379","55792","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"380","55790","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"381","55103","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"382","55075","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"383","55449","27003","003","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Anoka County","Minnesota","Central"
+"384","55449","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"385","55723","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"386","55723","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"387","55302","27171","171","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Wright County","Minnesota","Central"
+"388","55327","27171","171","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Wright County","Minnesota","Central"
+"389","55327","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"390","55971","27045","045","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Fillmore County","Minnesota","Outlying"
+"391","55971","27169","169","27","49100",NA,NA,"Winona, MN","Micropolitan Statistical Area",NA,NA,"Winona County","Minnesota","Central"
+"392","55971","27055","055","27","29100",NA,NA,"La Crosse-Onalaska, WI-MN","Metropolitan Statistical Area",NA,NA,"Houston County","Minnesota","Central"
+"393","55981","27157","157","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Wabasha County","Minnesota","Outlying"
+"394","55952","27169","169","27","49100",NA,NA,"Winona, MN","Micropolitan Statistical Area",NA,NA,"Winona County","Minnesota","Central"
+"395","55963","27109","109","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Olmsted County","Minnesota","Central"
+"396","55963","27049","049","27","39860",NA,"378","Red Wing, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Goodhue County","Minnesota","Central"
+"397","55963","27039","039","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Dodge County","Minnesota","Outlying"
+"398","55967","27045","045","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Fillmore County","Minnesota","Outlying"
+"399","55967","27099","099","27","12380",NA,"462","Austin, MN","Micropolitan Statistical Area",NA,"Rochester-Austin, MN","Mower County","Minnesota","Central"
+"400","56710","27119","119","27","24220",NA,NA,"Grand Forks, ND-MN","Metropolitan Statistical Area",NA,NA,"Polk County","Minnesota","Central"
+"401","56710","27089","089","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"402","56345","27097","097","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"403","56381","27121","121","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"404","56252","27067","067","27","48820",NA,NA,"Willmar, MN","Micropolitan Statistical Area",NA,NA,"Kandiyohi County","Minnesota","Central"
+"405","56252","27023","023","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"406","56252","27151","151","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"407","56295","27023","023","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"408","56228","27129","129","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"409","56228","27093","093","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"410","56514","27027","027","27","22020",NA,"244","Fargo, ND-MN","Metropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Clay County","Minnesota","Central"
+"411","56514","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"412","56514","27167","167","27","47420",NA,"244","Wahpeton, ND-MN","Micropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Wilkin County","Minnesota","Outlying"
+"413","56589","27005","005","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"414","56589","27107","107","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"415","56589","27087","087","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"416","55341","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"417","55341","27171","171","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Wright County","Minnesota","Central"
+"418","55706","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"419","56120","27165","165","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"420","56231","27151","151","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"421","56091","27161","161","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"422","56577","27005","005","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"423","56593","27005","005","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"424","56344","27097","097","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"425","55744","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"426","55929","27109","109","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Olmsted County","Minnesota","Central"
+"427","55779","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"428","55358","27171","171","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Wright County","Minnesota","Central"
+"429","55104","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"430","55092","27003","003","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Anoka County","Minnesota","Central"
+"431","55092","27025","025","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Chisago County","Minnesota","Outlying"
+"432","55066","27049","049","27","39860",NA,"378","Red Wing, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Goodhue County","Minnesota","Central"
+"433","55719","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"434","56011","27079","079","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Le Sueur County","Minnesota","Outlying"
+"435","56011","27143","143","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"436","56011","27019","019","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Carver County","Minnesota","Central"
+"437","56011","27139","139","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Scott County","Minnesota","Central"
+"438","55965","27045","045","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Fillmore County","Minnesota","Outlying"
+"439","56516","27087","087","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"440","56516","27107","107","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"441","55703","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"442","56033","27043","043","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"443","56051","27043","043","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"444","56051","27047","047","27","10660",NA,NA,"Albert Lea, MN","Micropolitan Statistical Area",NA,NA,"Freeborn County","Minnesota","Central"
+"445","56659","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"446","55785","27021","021","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Cass County","Minnesota","Outlying"
+"447","55785","27001","001","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"448","56735","27135","135","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"449","56735","27069","069","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"450","56651","27087","087","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"451","56651","27119","119","27","24220",NA,NA,"Grand Forks, ND-MN","Metropolitan Statistical Area",NA,NA,"Polk County","Minnesota","Central"
+"452","56546","27027","027","27","22020",NA,"244","Fargo, ND-MN","Metropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Clay County","Minnesota","Central"
+"453","56546","27107","107","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"454","56384","27097","097","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"455","55764","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"456","55407","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"457","55807","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"458","55901","27109","109","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Olmsted County","Minnesota","Central"
+"459","55902","27109","109","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Olmsted County","Minnesota","Central"
+"460","55752","27001","001","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"461","55752","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"462","55787","27017","017","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"Carlton County","Minnesota","Outlying"
+"463","55787","27001","001","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"464","55379","27139","139","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Scott County","Minnesota","Central"
+"465","55387","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"466","55387","27019","019","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Carver County","Minnesota","Central"
+"467","55338","27143","143","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"468","55338","27085","085","27","26780",NA,"378","Hutchinson, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","McLeod County","Minnesota","Central"
+"469","55338","27019","019","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Carver County","Minnesota","Central"
+"470","55375","27019","019","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Carver County","Minnesota","Central"
+"471","55375","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"472","55389","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"473","55389","27093","093","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"474","55123","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"475","55121","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"476","55013","27163","163","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Washington County","Minnesota","Central"
+"477","55013","27025","025","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Chisago County","Minnesota","Outlying"
+"478","55128","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"479","55128","27163","163","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Washington County","Minnesota","Central"
+"480","55316","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"481","55314","27129","129","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"482","55314","27143","143","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"483","55979","27045","045","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Fillmore County","Minnesota","Outlying"
+"484","55979","27169","169","27","49100",NA,NA,"Winona, MN","Micropolitan Statistical Area",NA,NA,"Winona County","Minnesota","Central"
+"485","55944","27039","039","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Dodge County","Minnesota","Outlying"
+"486","55944","27109","109","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Olmsted County","Minnesota","Central"
+"487","55974","27045","045","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Fillmore County","Minnesota","Outlying"
+"488","55974","27055","055","27","29100",NA,NA,"La Crosse-Onalaska, WI-MN","Metropolitan Statistical Area",NA,NA,"Houston County","Minnesota","Central"
+"489","56750","27113","113","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"490","56750","27125","125","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"491","56750","27119","119","27","24220",NA,NA,"Grand Forks, ND-MN","Metropolitan Statistical Area",NA,NA,"Polk County","Minnesota","Central"
+"492","56378","27153","153","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"493","56378","27121","121","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"494","56378","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"495","56374","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"496","56441","27035","035","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Crow Wing County","Minnesota","Central"
+"497","56251","27067","067","27","48820",NA,NA,"Willmar, MN","Micropolitan Statistical Area",NA,NA,"Kandiyohi County","Minnesota","Central"
+"498","56248","27149","149","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"499","56248","27155","155","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"500","56248","27051","051","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"501","56118","27033","033","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"502","56118","27063","063","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"503","56273","27067","067","27","48820",NA,NA,"Willmar, MN","Micropolitan Statistical Area",NA,NA,"Kandiyohi County","Minnesota","Central"
+"504","56115","27101","101","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"505","56115","27083","083","27","32140",NA,NA,"Marshall, MN","Micropolitan Statistical Area",NA,NA,"Lyon County","Minnesota","Central"
+"506","56550","27107","107","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"507","56534","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"508","56524","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"509","55940","27099","099","27","12380",NA,"462","Austin, MN","Micropolitan Statistical Area",NA,"Rochester-Austin, MN","Mower County","Minnesota","Central"
+"510","55940","27039","039","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Dodge County","Minnesota","Outlying"
+"511","55940","27109","109","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Olmsted County","Minnesota","Central"
+"512","55983","27049","049","27","39860",NA,"378","Red Wing, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Goodhue County","Minnesota","Central"
+"513","55975","27099","099","27","12380",NA,"462","Austin, MN","Micropolitan Statistical Area",NA,"Rochester-Austin, MN","Mower County","Minnesota","Central"
+"514","55975","27045","045","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Fillmore County","Minnesota","Outlying"
+"515","56266","27015","015","27","35580",NA,"359","New Ulm, MN","Micropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Brown County","Minnesota","Central"
+"516","56266","27127","127","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"517","56224","27127","127","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"518","56263","27083","083","27","32140",NA,NA,"Marshall, MN","Micropolitan Statistical Area",NA,NA,"Lyon County","Minnesota","Central"
+"519","56263","27127","127","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"520","56663","27007","007","27","13420",NA,NA,"Bemidji, MN","Micropolitan Statistical Area",NA,NA,"Beltrami County","Minnesota","Central"
+"521","55962","27045","045","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Fillmore County","Minnesota","Outlying"
+"522","55962","27169","169","27","49100",NA,NA,"Winona, MN","Micropolitan Statistical Area",NA,NA,"Winona County","Minnesota","Central"
+"523","56129","27105","105","27","49380",NA,NA,"Worthington, MN","Micropolitan Statistical Area",NA,NA,"Nobles County","Minnesota","Central"
+"524","56129","27133","133","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"525","56155","27105","105","27","49380",NA,NA,"Worthington, MN","Micropolitan Statistical Area",NA,NA,"Nobles County","Minnesota","Central"
+"526","56363","27095","095","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Mille Lacs County","Minnesota","Outlying"
+"527","56627","27071","071","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"528","56399","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"529","55797","27017","017","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"Carlton County","Minnesota","Outlying"
+"530","55935","27045","045","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Fillmore County","Minnesota","Outlying"
+"531","55046","27131","131","27","22060",NA,"378","Faribault-Northfield, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Rice County","Minnesota","Central"
+"532","55130","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"533","56060","27165","165","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"534","56060","27013","013","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Blue Earth County","Minnesota","Central"
+"535","56729","27069","069","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"536","56310","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"537","56278","27149","149","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"538","56278","27011","011","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"539","56278","27073","073","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"540","56110","27105","105","27","49380",NA,NA,"Worthington, MN","Micropolitan Statistical Area",NA,NA,"Nobles County","Minnesota","Central"
+"541","56170","27083","083","27","32140",NA,NA,"Marshall, MN","Micropolitan Statistical Area",NA,NA,"Lyon County","Minnesota","Central"
+"542","56170","27117","117","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"543","56170","27081","081","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"544","56170","27101","101","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"545","56578","27005","005","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"546","56528","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"547","56657","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"548","55749","27115","115","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"549","55749","27017","017","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"Carlton County","Minnesota","Outlying"
+"550","55606","27031","031","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"551","55144","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"552","55786","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"553","56629","27071","071","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"554","55009","27049","049","27","39860",NA,"378","Red Wing, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Goodhue County","Minnesota","Central"
+"555","55009","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"556","55415","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"557","55420","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"558","55357","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"559","55113","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"560","55113","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"561","55082","27163","163","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Washington County","Minnesota","Central"
+"562","55014","27003","003","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Anoka County","Minnesota","Central"
+"563","55025","27025","025","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Chisago County","Minnesota","Outlying"
+"564","55025","27003","003","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Anoka County","Minnesota","Central"
+"565","55025","27163","163","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Washington County","Minnesota","Central"
+"566","55033","27163","163","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Washington County","Minnesota","Central"
+"567","55033","27049","049","27","39860",NA,"378","Red Wing, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Goodhue County","Minnesota","Central"
+"568","55033","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"569","55019","27131","131","27","22060",NA,"378","Faribault-Northfield, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Rice County","Minnesota","Central"
+"570","55434","27003","003","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Anoka County","Minnesota","Central"
+"571","55454","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"572","55614","27075","075","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"Lake County","Minnesota","Outlying"
+"573","55310","27129","129","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"574","56055","27013","013","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Blue Earth County","Minnesota","Central"
+"575","56063","27079","079","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Le Sueur County","Minnesota","Outlying"
+"576","56063","27161","161","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"577","56063","27013","013","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Blue Earth County","Minnesota","Central"
+"578","56701","27089","089","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"579","56701","27113","113","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"580","56751","27135","135","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"581","56742","27119","119","27","24220",NA,NA,"Grand Forks, ND-MN","Metropolitan Statistical Area",NA,NA,"Polk County","Minnesota","Central"
+"582","56742","27125","125","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"583","56438","27153","153","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"584","56438","27097","097","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"585","56312","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"586","56312","27067","067","27","48820",NA,NA,"Willmar, MN","Micropolitan Statistical Area",NA,NA,"Kandiyohi County","Minnesota","Central"
+"587","56330","27009","009","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Benton County","Minnesota","Central"
+"588","56330","27095","095","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Mille Lacs County","Minnesota","Outlying"
+"589","56249","27151","151","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"590","56253","27067","067","27","48820",NA,NA,"Willmar, MN","Micropolitan Statistical Area",NA,NA,"Kandiyohi County","Minnesota","Central"
+"591","56584","27027","027","27","22020",NA,"244","Fargo, ND-MN","Metropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Clay County","Minnesota","Central"
+"592","56584","27107","107","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"593","56355","27041","041","27","10820",NA,NA,"Alexandria, MN","Micropolitan Statistical Area",NA,NA,"Douglas County","Minnesota","Central"
+"594","56207","27149","149","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"595","55003","27163","163","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Washington County","Minnesota","Central"
+"596","56158","27133","133","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"597","56158","27105","105","27","49380",NA,NA,"Worthington, MN","Micropolitan Statistical Area",NA,NA,"Nobles County","Minnesota","Central"
+"598","56669","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"599","56669","27071","071","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"600","56548","27107","107","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"601","56376","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"602","55423","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"603","55329","27093","093","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"604","55329","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"605","55320","27171","171","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Wright County","Minnesota","Central"
+"606","55320","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"607","56002","27013","013","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Blue Earth County","Minnesota","Central"
+"608","56074","27103","103","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Nicollet County","Minnesota","Central"
+"609","56068","27161","161","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"610","56068","27043","043","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"611","56068","27013","013","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Blue Earth County","Minnesota","Central"
+"612","56714","27135","135","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"613","56329","27009","009","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Benton County","Minnesota","Central"
+"614","56329","27141","141","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Sherburne County","Minnesota","Central"
+"615","56329","27097","097","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"616","56241","27173","173","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"617","56241","27129","129","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"618","56241","27023","023","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"619","56087","27033","033","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"620","56087","27127","127","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"621","56087","27015","015","27","35580",NA,"359","New Ulm, MN","Micropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Brown County","Minnesota","Central"
+"622","56527","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"623","56567","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"624","56045","27047","047","27","10660",NA,NA,"Albert Lea, MN","Micropolitan Statistical Area",NA,NA,"Freeborn County","Minnesota","Central"
+"625","56388","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"626","56680","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"627","55020","27131","131","27","22060",NA,"378","Faribault-Northfield, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Rice County","Minnesota","Central"
+"628","55020","27139","139","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Scott County","Minnesota","Central"
+"629","56580","27027","027","27","22020",NA,"244","Fargo, ND-MN","Metropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Clay County","Minnesota","Central"
+"630","56216","27067","067","27","48820",NA,NA,"Willmar, MN","Micropolitan Statistical Area",NA,NA,"Kandiyohi County","Minnesota","Central"
+"631","56594","27167","167","27","47420",NA,"244","Wahpeton, ND-MN","Micropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Wilkin County","Minnesota","Outlying"
+"632","56594","27027","027","27","22020",NA,"244","Fargo, ND-MN","Metropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Clay County","Minnesota","Central"
+"633","56685","27007","007","27","13420",NA,NA,"Bemidji, MN","Micropolitan Statistical Area",NA,NA,"Beltrami County","Minnesota","Central"
+"634","56328","27097","097","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"635","56084","27015","015","27","35580",NA,"359","New Ulm, MN","Micropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Brown County","Minnesota","Central"
+"636","55005","27003","003","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Anoka County","Minnesota","Central"
+"637","55005","27059","059","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Isanti County","Minnesota","Outlying"
+"638","55424","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"639","55746","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"640","55746","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"641","55763","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"642","55784","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"643","55939","27045","045","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Fillmore County","Minnesota","Outlying"
+"644","55382","27171","171","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Wright County","Minnesota","Central"
+"645","55382","27093","093","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"646","55382","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"647","55110","27003","003","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Anoka County","Minnesota","Central"
+"648","55110","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"649","55110","27163","163","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Washington County","Minnesota","Central"
+"650","55077","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"651","55119","27163","163","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Washington County","Minnesota","Central"
+"652","55119","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"653","55304","27003","003","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Anoka County","Minnesota","Central"
+"654","56062","27015","015","27","35580",NA,"359","New Ulm, MN","Micropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Brown County","Minnesota","Central"
+"655","56062","27013","013","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Blue Earth County","Minnesota","Central"
+"656","56062","27165","165","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"657","56039","27091","091","27","21860",NA,NA,"Fairmont, MN","Micropolitan Statistical Area",NA,NA,"Martin County","Minnesota","Central"
+"658","56039","27043","043","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"659","56732","27089","089","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"660","56732","27135","135","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"661","56732","27069","069","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"662","56425","27021","021","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Cass County","Minnesota","Outlying"
+"663","56425","27035","035","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Crow Wing County","Minnesota","Central"
+"664","56229","27083","083","27","32140",NA,NA,"Marshall, MN","Micropolitan Statistical Area",NA,NA,"Lyon County","Minnesota","Central"
+"665","56229","27173","173","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"666","56230","27129","129","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"667","56113","27083","083","27","32140",NA,NA,"Marshall, MN","Micropolitan Statistical Area",NA,NA,"Lyon County","Minnesota","Central"
+"668","56113","27081","081","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"669","56547","27027","027","27","22020",NA,"244","Fargo, ND-MN","Metropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Clay County","Minnesota","Central"
+"670","56678","27057","057","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"671","56678","27029","029","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"672","56678","27007","007","27","13420",NA,NA,"Bemidji, MN","Micropolitan Statistical Area",NA,NA,"Beltrami County","Minnesota","Central"
+"673","56626","27021","021","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Cass County","Minnesota","Outlying"
+"674","55390","27171","171","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Wright County","Minnesota","Central"
+"675","55029","27059","059","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Isanti County","Minnesota","Outlying"
+"676","56561","27027","027","27","22020",NA,"244","Fargo, ND-MN","Metropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Clay County","Minnesota","Central"
+"677","56029","27047","047","27","10660",NA,NA,"Albert Lea, MN","Micropolitan Statistical Area",NA,NA,"Freeborn County","Minnesota","Central"
+"678","56448","27021","021","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Cass County","Minnesota","Outlying"
+"679","56448","27035","035","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Crow Wing County","Minnesota","Central"
+"680","56157","27083","083","27","32140",NA,NA,"Marshall, MN","Micropolitan Statistical Area",NA,NA,"Lyon County","Minnesota","Central"
+"681","55012","27025","025","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Chisago County","Minnesota","Outlying"
+"682","56518","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"683","55780","27017","017","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"Carlton County","Minnesota","Outlying"
+"684","55613","27031","031","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"685","55745","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"686","56341","27041","041","27","10820",NA,NA,"Alexandria, MN","Micropolitan Statistical Area",NA,NA,"Douglas County","Minnesota","Central"
+"687","55601","27075","075","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"Lake County","Minnesota","Outlying"
+"688","55806","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"689","55798","27001","001","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"690","55798","27017","017","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"Carlton County","Minnesota","Outlying"
+"691","55798","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"692","55384","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"693","55118","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"694","55118","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"695","55057","27049","049","27","39860",NA,"378","Red Wing, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Goodhue County","Minnesota","Central"
+"696","55057","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"697","55057","27131","131","27","22060",NA,"378","Faribault-Northfield, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Rice County","Minnesota","Central"
+"698","55071","27163","163","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Washington County","Minnesota","Central"
+"699","55325","27171","171","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Wright County","Minnesota","Central"
+"700","55325","27093","093","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"701","56034","27013","013","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Blue Earth County","Minnesota","Central"
+"702","56024","27013","013","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Blue Earth County","Minnesota","Central"
+"703","56688","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"704","56437","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"705","56437","27153","153","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"706","56331","27153","153","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"707","56331","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"708","56331","27097","097","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"709","56470","27159","159","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"710","56470","27029","029","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"711","56470","27005","005","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"712","56470","27057","057","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"713","56628","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"714","55756","27017","017","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"Carlton County","Minnesota","Outlying"
+"715","55756","27115","115","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"716","55155","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"717","56668","27071","071","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"718","56583","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"719","56583","27155","155","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"720","56583","27167","167","27","47420",NA,"244","Wahpeton, ND-MN","Micropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Wilkin County","Minnesota","Outlying"
+"721","56731","27069","069","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"722","55083","27163","163","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Washington County","Minnesota","Central"
+"723","56398","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"724","55921","27055","055","27","29100",NA,NA,"La Crosse-Onalaska, WI-MN","Metropolitan Statistical Area",NA,NA,"Houston County","Minnesota","Central"
+"725","55932","27157","157","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Wabasha County","Minnesota","Outlying"
+"726","55932","27109","109","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Olmsted County","Minnesota","Central"
+"727","55783","27001","001","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"728","55783","27115","115","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"729","55783","27017","017","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"Carlton County","Minnesota","Outlying"
+"730","55355","27085","085","27","26780",NA,"378","Hutchinson, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","McLeod County","Minnesota","Central"
+"731","55355","27093","093","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"732","55342","27129","129","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"733","55342","27093","093","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"734","55031","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"735","55435","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"736","55307","27143","143","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"737","55124","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"738","55317","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"739","55317","27019","019","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Carver County","Minnesota","Central"
+"740","56017","27079","079","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Le Sueur County","Minnesota","Outlying"
+"741","56065","27013","013","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Blue Earth County","Minnesota","Central"
+"742","56065","27043","043","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"743","56065","27161","161","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"744","56466","27097","097","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"745","56466","27021","021","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Cass County","Minnesota","Outlying"
+"746","56466","27153","153","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"747","56332","27041","041","27","10820",NA,NA,"Alexandria, MN","Micropolitan Statistical Area",NA,NA,"Douglas County","Minnesota","Central"
+"748","56359","27095","095","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Mille Lacs County","Minnesota","Outlying"
+"749","56359","27097","097","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"750","56156","27133","133","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"751","56156","27117","117","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"752","56093","27161","161","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"753","56093","27147","147","27","36940",NA,"378","Owatonna, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Steele County","Minnesota","Central"
+"754","56209","27093","093","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"755","56209","27067","067","27","48820",NA,NA,"Willmar, MN","Micropolitan Statistical Area",NA,NA,"Kandiyohi County","Minnesota","Central"
+"756","56152","27127","127","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"757","56152","27033","033","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"758","56510","27107","107","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"759","56585","27027","027","27","22020",NA,"244","Fargo, ND-MN","Metropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Clay County","Minnesota","Central"
+"760","56585","27005","005","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"761","56585","27107","107","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"762","56579","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"763","56579","27167","167","27","47420",NA,"244","Wahpeton, ND-MN","Micropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Wilkin County","Minnesota","Outlying"
+"764","56554","27027","027","27","22020",NA,"244","Fargo, ND-MN","Metropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Clay County","Minnesota","Central"
+"765","56554","27005","005","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"766","56634","27029","029","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"767","56590","27051","051","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"768","56639","27071","071","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"769","56639","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"770","56227","27151","151","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"771","56227","27011","011","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"772","56016","27047","047","27","10660",NA,NA,"Albert Lea, MN","Micropolitan Statistical Area",NA,NA,"Freeborn County","Minnesota","Central"
+"773","55757","27017","017","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"Carlton County","Minnesota","Outlying"
+"774","56281","27067","067","27","48820",NA,NA,"Willmar, MN","Micropolitan Statistical Area",NA,NA,"Kandiyohi County","Minnesota","Central"
+"775","56592","27087","087","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"776","56592","27119","119","27","24220",NA,NA,"Grand Forks, ND-MN","Metropolitan Statistical Area",NA,NA,"Polk County","Minnesota","Central"
+"777","56046","27147","147","27","36940",NA,"378","Owatonna, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Steele County","Minnesota","Central"
+"778","56210","27011","011","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"779","55416","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"780","55426","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"781","55775","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"782","55906","27157","157","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Wabasha County","Minnesota","Outlying"
+"783","55906","27109","109","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Olmsted County","Minnesota","Central"
+"784","55108","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"785","55428","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"786","55303","27003","003","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Anoka County","Minnesota","Central"
+"787","55964","27169","169","27","49100",NA,NA,"Winona, MN","Micropolitan Statistical Area",NA,NA,"Winona County","Minnesota","Central"
+"788","55964","27109","109","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Olmsted County","Minnesota","Central"
+"789","55964","27157","157","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Wabasha County","Minnesota","Outlying"
+"790","56725","27113","113","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"791","56725","27089","089","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"792","56763","27135","135","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"793","56320","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"794","56350","27115","115","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"795","56350","27001","001","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"796","56336","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"797","56336","27097","097","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"798","56336","27153","153","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"799","56452","27021","021","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Cass County","Minnesota","Outlying"
+"800","56464","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"801","56464","27057","057","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"802","56464","27159","159","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"803","56464","27005","005","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"804","56464","27021","021","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Cass County","Minnesota","Outlying"
+"805","56309","27051","051","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"806","56309","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"807","56309","27041","041","27","10820",NA,NA,"Alexandria, MN","Micropolitan Statistical Area",NA,NA,"Douglas County","Minnesota","Central"
+"808","56122","27105","105","27","49380",NA,NA,"Worthington, MN","Micropolitan Statistical Area",NA,NA,"Nobles County","Minnesota","Central"
+"809","56122","27101","101","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"810","56172","27101","101","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"811","56601","27057","057","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"812","56601","27007","007","27","13420",NA,NA,"Bemidji, MN","Micropolitan Statistical Area",NA,NA,"Beltrami County","Minnesota","Central"
+"813","56569","27005","005","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"814","55726","27017","017","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"Carlton County","Minnesota","Outlying"
+"815","56315","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"816","56315","27041","041","27","10820",NA,NA,"Alexandria, MN","Micropolitan Statistical Area",NA,NA,"Douglas County","Minnesota","Central"
+"817","56214","27127","127","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"818","56214","27173","173","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"819","56553","27167","167","27","47420",NA,"244","Wahpeton, ND-MN","Micropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Wilkin County","Minnesota","Outlying"
+"820","56540","27087","087","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"821","56540","27107","107","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"822","56540","27119","119","27","24220",NA,NA,"Grand Forks, ND-MN","Metropolitan Statistical Area",NA,NA,"Polk County","Minnesota","Central"
+"823","56652","27029","029","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"824","56652","27007","007","27","13420",NA,NA,"Bemidji, MN","Micropolitan Statistical Area",NA,NA,"Beltrami County","Minnesota","Central"
+"825","55090","27163","163","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Washington County","Minnesota","Central"
+"826","56161","27063","063","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"827","56761","27135","135","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"828","55758","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"829","56566","27087","087","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"830","56056","27165","165","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"831","55377","27141","141","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Sherburne County","Minnesota","Central"
+"832","55404","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"833","55403","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"834","55751","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"835","55925","27169","169","27","49100",NA,NA,"Winona, MN","Micropolitan Statistical Area",NA,NA,"Winona County","Minnesota","Central"
+"836","55388","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"837","55388","27019","019","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Carver County","Minnesota","Central"
+"838","55388","27171","171","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Wright County","Minnesota","Central"
+"839","55026","27049","049","27","39860",NA,"378","Red Wing, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Goodhue County","Minnesota","Central"
+"840","55427","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"841","55313","27171","171","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Wright County","Minnesota","Central"
+"842","55331","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"843","55331","27019","019","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Carver County","Minnesota","Central"
+"844","55949","27045","045","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Fillmore County","Minnesota","Outlying"
+"845","55960","27157","157","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Wabasha County","Minnesota","Outlying"
+"846","55960","27109","109","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Olmsted County","Minnesota","Central"
+"847","56686","27077","077","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"848","56342","27001","001","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"849","56342","27065","065","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"850","56342","27095","095","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Mille Lacs County","Minnesota","Outlying"
+"851","56357","27009","009","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Benton County","Minnesota","Central"
+"852","56357","27095","095","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Mille Lacs County","Minnesota","Outlying"
+"853","56187","27063","063","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"854","56187","27105","105","27","49380",NA,NA,"Worthington, MN","Micropolitan Statistical Area",NA,NA,"Nobles County","Minnesota","Central"
+"855","56304","27009","009","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Benton County","Minnesota","Central"
+"856","56304","27141","141","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Sherburne County","Minnesota","Central"
+"857","56279","27067","067","27","48820",NA,NA,"Willmar, MN","Micropolitan Statistical Area",NA,NA,"Kandiyohi County","Minnesota","Central"
+"858","56535","27125","125","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"859","56535","27119","119","27","24220",NA,NA,"Grand Forks, ND-MN","Metropolitan Statistical Area",NA,NA,"Polk County","Minnesota","Central"
+"860","56667","27007","007","27","13420",NA,NA,"Bemidji, MN","Micropolitan Statistical Area",NA,NA,"Beltrami County","Minnesota","Central"
+"861","56282","27067","067","27","48820",NA,NA,"Willmar, MN","Micropolitan Statistical Area",NA,NA,"Kandiyohi County","Minnesota","Central"
+"862","56282","27023","023","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"863","55955","27109","109","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Olmsted County","Minnesota","Central"
+"864","55955","27039","039","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Dodge County","Minnesota","Outlying"
+"865","56523","27119","119","27","24220",NA,NA,"Grand Forks, ND-MN","Metropolitan Statistical Area",NA,NA,"Polk County","Minnesota","Central"
+"866","55725","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"867","56160","27091","091","27","21860",NA,NA,"Fairmont, MN","Micropolitan Statistical Area",NA,NA,"Martin County","Minnesota","Central"
+"868","56160","27063","063","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"869","56160","27165","165","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"870","56022","27165","165","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"871","56658","27071","071","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"872","56679","27071","071","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"873","55609","27075","075","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"Lake County","Minnesota","Outlying"
+"874","55408","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"875","55401","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"876","55414","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"877","55412","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"878","55735","27115","115","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"879","55735","27001","001","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"880","55903","27109","109","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Olmsted County","Minnesota","Central"
+"881","55362","27171","171","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Wright County","Minnesota","Central"
+"882","55364","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"883","55089","27049","049","27","39860",NA,"378","Red Wing, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Goodhue County","Minnesota","Central"
+"884","55089","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"885","55445","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"886","55430","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"887","55709","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"888","55311","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"889","56028","27161","161","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"890","56028","27079","079","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Le Sueur County","Minnesota","Outlying"
+"891","56324","27051","051","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"892","56324","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"893","56235","27051","051","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"894","56235","27149","149","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"895","56101","27033","033","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"896","56101","27063","063","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"897","56288","27067","067","27","48820",NA,NA,"Willmar, MN","Micropolitan Statistical Area",NA,NA,"Kandiyohi County","Minnesota","Central"
+"898","56222","27067","067","27","48820",NA,NA,"Willmar, MN","Micropolitan Statistical Area",NA,NA,"Kandiyohi County","Minnesota","Central"
+"899","56222","27023","023","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"900","56232","27073","073","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"901","56501","27005","005","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"902","56501","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"903","56531","27051","051","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"904","56531","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"905","56537","27051","051","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"906","56537","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"907","56649","27071","071","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"908","55909","27099","099","27","12380",NA,"462","Austin, MN","Micropolitan Statistical Area",NA,"Rochester-Austin, MN","Mower County","Minnesota","Central"
+"909","56223","27173","173","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"910","56223","27073","073","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"911","55017","27059","059","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Isanti County","Minnesota","Outlying"
+"912","55418","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"913","55418","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"914","55398","27141","141","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Sherburne County","Minnesota","Central"
+"915","55398","27003","003","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Anoka County","Minnesota","Central"
+"916","55398","27059","059","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Isanti County","Minnesota","Outlying"
+"917","55804","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"918","55805","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"919","55812","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"920","55926","27099","099","27","12380",NA,"462","Austin, MN","Micropolitan Statistical Area",NA,"Rochester-Austin, MN","Mower County","Minnesota","Central"
+"921","55344","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"922","55102","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"923","55045","27025","025","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Chisago County","Minnesota","Outlying"
+"924","55438","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"925","55705","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"926","55455","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"927","56013","27043","043","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"928","56013","27091","091","27","21860",NA,NA,"Fairmont, MN","Micropolitan Statistical Area",NA,NA,"Martin County","Minnesota","Central"
+"929","56683","27007","007","27","13420",NA,NA,"Bemidji, MN","Micropolitan Statistical Area",NA,NA,"Beltrami County","Minnesota","Central"
+"930","56379","27141","141","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Sherburne County","Minnesota","Central"
+"931","56379","27009","009","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Benton County","Minnesota","Central"
+"932","56347","27097","097","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"933","56347","27153","153","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"934","56316","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"935","56316","27121","121","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"936","56316","27067","067","27","48820",NA,NA,"Willmar, MN","Micropolitan Statistical Area",NA,NA,"Kandiyohi County","Minnesota","Central"
+"937","56239","27083","083","27","32140",NA,NA,"Marshall, MN","Micropolitan Statistical Area",NA,NA,"Lyon County","Minnesota","Central"
+"938","56168","27105","105","27","49380",NA,NA,"Worthington, MN","Micropolitan Statistical Area",NA,NA,"Nobles County","Minnesota","Central"
+"939","56090","27013","013","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Blue Earth County","Minnesota","Central"
+"940","56560","27167","167","27","47420",NA,"244","Wahpeton, ND-MN","Micropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Wilkin County","Minnesota","Outlying"
+"941","56560","27027","027","27","22020",NA,"244","Fargo, ND-MN","Metropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Clay County","Minnesota","Central"
+"942","55032","27059","059","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Isanti County","Minnesota","Outlying"
+"943","55032","27025","025","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Chisago County","Minnesota","Outlying"
+"944","56171","27091","091","27","21860",NA,NA,"Fairmont, MN","Micropolitan Statistical Area",NA,NA,"Martin County","Minnesota","Central"
+"945","56517","27119","119","27","24220",NA,NA,"Grand Forks, ND-MN","Metropolitan Statistical Area",NA,NA,"Polk County","Minnesota","Central"
+"946","55716","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"947","56522","27167","167","27","47420",NA,"244","Wahpeton, ND-MN","Micropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Wilkin County","Minnesota","Outlying"
+"948","56522","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"949","56522","27051","051","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"950","55146","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"951","56666","27007","007","27","13420",NA,NA,"Bemidji, MN","Micropolitan Statistical Area",NA,NA,"Beltrami County","Minnesota","Central"
+"952","55768","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"953","55112","27003","003","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Anoka County","Minnesota","Central"
+"954","55112","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"955","55114","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"956","55068","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"957","55458","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"958","55309","27141","141","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Sherburne County","Minnesota","Central"
+"959","56032","27047","047","27","10660",NA,NA,"Albert Lea, MN","Micropolitan Statistical Area",NA,NA,"Freeborn County","Minnesota","Central"
+"960","56078","27013","013","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Blue Earth County","Minnesota","Central"
+"961","56078","27161","161","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"962","56081","27165","165","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"963","56081","27015","015","27","35580",NA,"359","New Ulm, MN","Micropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Brown County","Minnesota","Central"
+"964","55941","27055","055","27","29100",NA,NA,"La Crosse-Onalaska, WI-MN","Metropolitan Statistical Area",NA,NA,"Houston County","Minnesota","Central"
+"965","56450","27035","035","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Crow Wing County","Minnesota","Central"
+"966","56450","27095","095","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Mille Lacs County","Minnesota","Outlying"
+"967","56244","27151","151","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"968","56244","27121","121","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"969","56244","27149","149","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"970","56186","27117","117","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"971","56186","27101","101","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"972","56479","27021","021","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Cass County","Minnesota","Outlying"
+"973","56479","27153","153","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"974","56479","27159","159","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"975","56573","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"976","56511","27005","005","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"977","55738","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"978","56661","27007","007","27","13420",NA,NA,"Bemidji, MN","Micropolitan Statistical Area",NA,NA,"Beltrami County","Minnesota","Central"
+"979","56661","27071","071","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"980","56661","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"981","56027","27043","043","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"982","56027","27091","091","27","21860",NA,NA,"Fairmont, MN","Micropolitan Statistical Area",NA,NA,"Martin County","Minnesota","Central"
+"983","56236","27155","155","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"984","56236","27011","011","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"985","56644","27029","029","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"986","56644","27119","119","27","24220",NA,NA,"Grand Forks, ND-MN","Metropolitan Statistical Area",NA,NA,"Polk County","Minnesota","Central"
+"987","56473","27097","097","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"988","56473","27021","021","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Cass County","Minnesota","Outlying"
+"989","55717","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"990","56293","27127","127","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"991","55480","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"992","56356","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"993","55802","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"994","55376","27171","171","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Wright County","Minnesota","Central"
+"995","55353","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"996","55353","27093","093","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"997","55111","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"998","55041","27157","157","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Wabasha County","Minnesota","Outlying"
+"999","55041","27049","049","27","39860",NA,"378","Red Wing, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Goodhue County","Minnesota","Central"
+"1000","55070","27003","003","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Anoka County","Minnesota","Central"
+"1001","55070","27059","059","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Isanti County","Minnesota","Outlying"
+"1002","55708","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"1003","55301","27171","171","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Wright County","Minnesota","Central"
+"1004","55319","27141","141","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Sherburne County","Minnesota","Central"
+"1005","55324","27093","093","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1006","55990","27045","045","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Fillmore County","Minnesota","Outlying"
+"1007","55972","27169","169","27","49100",NA,NA,"Winona, MN","Micropolitan Statistical Area",NA,NA,"Winona County","Minnesota","Central"
+"1008","55972","27109","109","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Olmsted County","Minnesota","Central"
+"1009","56072","27043","043","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1010","56072","27047","047","27","10660",NA,NA,"Albert Lea, MN","Micropolitan Statistical Area",NA,NA,"Freeborn County","Minnesota","Central"
+"1011","56072","27147","147","27","36940",NA,"378","Owatonna, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Steele County","Minnesota","Central"
+"1012","56072","27161","161","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1013","56362","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"1014","56362","27067","067","27","48820",NA,NA,"Willmar, MN","Micropolitan Statistical Area",NA,NA,"Kandiyohi County","Minnesota","Central"
+"1015","56362","27093","093","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1016","56360","27121","121","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1017","56360","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"1018","56360","27153","153","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1019","56360","27041","041","27","10820",NA,NA,"Alexandria, MN","Micropolitan Statistical Area",NA,NA,"Douglas County","Minnesota","Central"
+"1020","56447","27035","035","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Crow Wing County","Minnesota","Central"
+"1021","56208","27023","023","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1022","56208","27011","011","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1023","56208","27073","073","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1024","56208","27151","151","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1025","56267","27149","149","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1026","56256","27173","173","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1027","56256","27073","073","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1028","56542","27087","087","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1029","56542","27119","119","27","24220",NA,NA,"Grand Forks, ND-MN","Metropolitan Statistical Area",NA,NA,"Polk County","Minnesota","Central"
+"1030","56468","27021","021","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Cass County","Minnesota","Outlying"
+"1031","56468","27035","035","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Crow Wing County","Minnesota","Central"
+"1032","55615","27031","031","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1033","56760","27089","089","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1034","56760","27113","113","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1035","56724","27089","089","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1036","56453","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"1037","56453","27153","153","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1038","56167","27105","105","27","49380",NA,NA,"Worthington, MN","Micropolitan Statistical Area",NA,NA,"Nobles County","Minnesota","Central"
+"1039","56167","27063","063","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1040","56311","27051","051","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1041","55782","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"1042","56313","27095","095","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Mille Lacs County","Minnesota","Outlying"
+"1043","56563","27027","027","27","22020",NA,"244","Fargo, ND-MN","Metropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Clay County","Minnesota","Central"
+"1044","56294","27127","127","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1045","56565","27155","155","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1046","56565","27167","167","27","47420",NA,"244","Wahpeton, ND-MN","Micropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Wilkin County","Minnesota","Outlying"
+"1047","56075","27091","091","27","21860",NA,NA,"Fairmont, MN","Micropolitan Statistical Area",NA,NA,"Martin County","Minnesota","Central"
+"1048","55413","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"1049","55917","27047","047","27","10660",NA,NA,"Albert Lea, MN","Micropolitan Statistical Area",NA,NA,"Freeborn County","Minnesota","Central"
+"1050","55917","27039","039","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Dodge County","Minnesota","Outlying"
+"1051","55917","27147","147","27","36940",NA,"378","Owatonna, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Steele County","Minnesota","Central"
+"1052","55917","27099","099","27","12380",NA,"462","Austin, MN","Micropolitan Statistical Area",NA,"Rochester-Austin, MN","Mower County","Minnesota","Central"
+"1053","55336","27143","143","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1054","55336","27085","085","27","26780",NA,"378","Hutchinson, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","McLeod County","Minnesota","Central"
+"1055","55396","27085","085","27","26780",NA,"378","Hutchinson, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","McLeod County","Minnesota","Central"
+"1056","55396","27143","143","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1057","55378","27139","139","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Scott County","Minnesota","Central"
+"1058","55378","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"1059","55060","27147","147","27","36940",NA,"378","Owatonna, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Steele County","Minnesota","Central"
+"1060","55072","27001","001","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1061","55072","27115","115","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1062","55072","27065","065","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1063","55125","27163","163","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Washington County","Minnesota","Central"
+"1064","55125","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"1065","55126","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"1066","55126","27003","003","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Anoka County","Minnesota","Central"
+"1067","55318","27019","019","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Carver County","Minnesota","Central"
+"1068","56003","27103","103","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Nicollet County","Minnesota","Central"
+"1069","56003","27013","013","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Blue Earth County","Minnesota","Central"
+"1070","56007","27047","047","27","10660",NA,NA,"Albert Lea, MN","Micropolitan Statistical Area",NA,NA,"Freeborn County","Minnesota","Central"
+"1071","55951","27099","099","27","12380",NA,"462","Austin, MN","Micropolitan Statistical Area",NA,"Rochester-Austin, MN","Mower County","Minnesota","Central"
+"1072","55951","27045","045","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Fillmore County","Minnesota","Outlying"
+"1073","56723","27119","119","27","24220",NA,NA,"Grand Forks, ND-MN","Metropolitan Statistical Area",NA,NA,"Polk County","Minnesota","Central"
+"1074","56440","27153","153","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1075","56444","27001","001","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1076","56444","27035","035","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Crow Wing County","Minnesota","Central"
+"1077","56175","27083","083","27","32140",NA,NA,"Marshall, MN","Micropolitan Statistical Area",NA,NA,"Lyon County","Minnesota","Central"
+"1078","56175","27101","101","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1079","56175","27127","127","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1080","56117","27105","105","27","49380",NA,NA,"Worthington, MN","Micropolitan Statistical Area",NA,NA,"Nobles County","Minnesota","Central"
+"1081","56180","27033","033","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1082","56180","27127","127","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1083","56180","27101","101","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1084","56215","27151","151","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1085","56215","27023","023","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1086","56215","27121","121","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1087","56145","27033","033","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1088","56588","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"1089","55742","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"1090","55367","27085","085","27","26780",NA,"378","Hutchinson, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","McLeod County","Minnesota","Central"
+"1091","55367","27019","019","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Carver County","Minnesota","Central"
+"1092","55953","27047","047","27","10660",NA,NA,"Albert Lea, MN","Micropolitan Statistical Area",NA,NA,"Freeborn County","Minnesota","Central"
+"1093","55953","27099","099","27","12380",NA,"462","Austin, MN","Micropolitan Statistical Area",NA,"Rochester-Austin, MN","Mower County","Minnesota","Central"
+"1094","56123","27101","101","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1095","56650","27007","007","27","13420",NA,NA,"Bemidji, MN","Micropolitan Statistical Area",NA,NA,"Beltrami County","Minnesota","Central"
+"1096","55753","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"1097","56176","27091","091","27","21860",NA,NA,"Fairmont, MN","Micropolitan Statistical Area",NA,NA,"Martin County","Minnesota","Central"
+"1098","56149","27117","117","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1099","56149","27101","101","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1100","56149","27081","081","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1101","56754","27125","125","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1102","56754","27113","113","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1103","56436","27057","057","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1104","55006","27025","025","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Chisago County","Minnesota","Outlying"
+"1105","55006","27065","065","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1106","55006","27059","059","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Isanti County","Minnesota","Outlying"
+"1107","55006","27115","115","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1108","55910","27169","169","27","49100",NA,NA,"Winona, MN","Micropolitan Statistical Area",NA,NA,"Winona County","Minnesota","Central"
+"1109","55910","27157","157","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Wabasha County","Minnesota","Outlying"
+"1110","55397","27085","085","27","26780",NA,"378","Hutchinson, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","McLeod County","Minnesota","Central"
+"1111","55397","27019","019","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Carver County","Minnesota","Central"
+"1112","55109","27163","163","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Washington County","Minnesota","Central"
+"1113","55109","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"1114","55109","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"1115","55037","27065","065","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1116","55037","27115","115","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1117","55721","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"1118","55945","27157","157","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Wabasha County","Minnesota","Outlying"
+"1119","56736","27119","119","27","24220",NA,NA,"Grand Forks, ND-MN","Metropolitan Statistical Area",NA,NA,"Polk County","Minnesota","Central"
+"1120","56736","27125","125","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1121","56756","27135","135","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1122","56726","27135","135","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1123","56265","27073","073","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1124","56265","27173","173","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1125","56265","27023","023","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1126","56245","27173","173","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1127","56260","27023","023","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1128","56260","27129","129","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1129","56127","27063","063","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1130","56127","27091","091","27","21860",NA,NA,"Fairmont, MN","Micropolitan Statistical Area",NA,NA,"Martin County","Minnesota","Central"
+"1131","56270","27127","127","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1132","56270","27129","129","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1133","56551","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"1134","56574","27107","107","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1135","56574","27027","027","27","22020",NA,"244","Fargo, ND-MN","Metropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Clay County","Minnesota","Central"
+"1136","56762","27119","119","27","24220",NA,NA,"Grand Forks, ND-MN","Metropolitan Statistical Area",NA,NA,"Polk County","Minnesota","Central"
+"1137","56762","27089","089","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1138","56715","27125","125","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1139","56335","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"1140","56043","27047","047","27","10660",NA,NA,"Albert Lea, MN","Micropolitan Statistical Area",NA,NA,"Freeborn County","Minnesota","Central"
+"1141","55772","27071","071","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1142","56631","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"1143","55405","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"1144","55741","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"1145","55371","27009","009","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Benton County","Minnesota","Central"
+"1146","55371","27095","095","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Mille Lacs County","Minnesota","Outlying"
+"1147","55371","27141","141","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Sherburne County","Minnesota","Central"
+"1148","55371","27059","059","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Isanti County","Minnesota","Outlying"
+"1149","55359","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"1150","55038","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"1151","55038","27163","163","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Washington County","Minnesota","Central"
+"1152","55038","27003","003","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Anoka County","Minnesota","Central"
+"1153","55718","27017","017","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"Carlton County","Minnesota","Outlying"
+"1154","55604","27031","031","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1155","55150","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"1156","55943","27169","169","27","49100",NA,NA,"Winona, MN","Micropolitan Statistical Area",NA,NA,"Winona County","Minnesota","Central"
+"1157","55943","27055","055","27","29100",NA,NA,"La Crosse-Onalaska, WI-MN","Metropolitan Statistical Area",NA,NA,"Houston County","Minnesota","Central"
+"1158","56071","27131","131","27","22060",NA,"378","Faribault-Northfield, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Rice County","Minnesota","Central"
+"1159","56071","27079","079","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Le Sueur County","Minnesota","Outlying"
+"1160","56071","27139","139","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Scott County","Minnesota","Central"
+"1161","56041","27013","013","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Blue Earth County","Minnesota","Central"
+"1162","56041","27015","015","27","35580",NA,"359","New Ulm, MN","Micropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Brown County","Minnesota","Central"
+"1163","56041","27165","165","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1164","56382","27153","153","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1165","56382","27097","097","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1166","56375","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"1167","56326","27051","051","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1168","56326","27041","041","27","10820",NA,NA,"Alexandria, MN","Micropolitan Statistical Area",NA,NA,"Douglas County","Minnesota","Central"
+"1169","56326","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"1170","56318","27097","097","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1171","56318","27153","153","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1172","56455","27035","035","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Crow Wing County","Minnesota","Central"
+"1173","56442","27035","035","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Crow Wing County","Minnesota","Central"
+"1174","56481","27153","153","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1175","56481","27159","159","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1176","56481","27021","021","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Cass County","Minnesota","Outlying"
+"1177","56572","27167","167","27","47420",NA,"244","Wahpeton, ND-MN","Micropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Wilkin County","Minnesota","Outlying"
+"1178","56572","27027","027","27","22020",NA,"244","Fargo, ND-MN","Metropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Clay County","Minnesota","Central"
+"1179","56572","27005","005","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1180","56572","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"1181","55922","27045","045","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Fillmore County","Minnesota","Outlying"
+"1182","56098","27091","091","27","21860",NA,NA,"Fairmont, MN","Micropolitan Statistical Area",NA,NA,"Martin County","Minnesota","Central"
+"1183","56098","27043","043","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1184","55366","27143","143","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1185","55760","27001","001","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1186","55912","27099","099","27","12380",NA,"462","Austin, MN","Micropolitan Statistical Area",NA,"Rochester-Austin, MN","Mower County","Minnesota","Central"
+"1187","55912","27047","047","27","10660",NA,NA,"Albert Lea, MN","Micropolitan Statistical Area",NA,NA,"Freeborn County","Minnesota","Central"
+"1188","55936","27099","099","27","12380",NA,"462","Austin, MN","Micropolitan Statistical Area",NA,"Rochester-Austin, MN","Mower County","Minnesota","Central"
+"1189","55350","27085","085","27","26780",NA,"378","Hutchinson, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","McLeod County","Minnesota","Central"
+"1190","55350","27093","093","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1191","55350","27129","129","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1192","55079","27059","059","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Isanti County","Minnesota","Outlying"
+"1193","55079","27003","003","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Anoka County","Minnesota","Central"
+"1194","55079","27025","025","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Chisago County","Minnesota","Outlying"
+"1195","55051","27095","095","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Mille Lacs County","Minnesota","Outlying"
+"1196","55051","27065","065","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1197","55051","27115","115","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1198","55018","27049","049","27","39860",NA,"378","Red Wing, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Goodhue County","Minnesota","Central"
+"1199","55018","27131","131","27","22060",NA,"378","Faribault-Northfield, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Rice County","Minnesota","Central"
+"1200","55018","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"1201","55073","27025","025","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Chisago County","Minnesota","Outlying"
+"1202","55073","27163","163","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Washington County","Minnesota","Central"
+"1203","55432","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"1204","55432","27003","003","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Anoka County","Minnesota","Central"
+"1205","56009","27047","047","27","10660",NA,NA,"Albert Lea, MN","Micropolitan Statistical Area",NA,NA,"Freeborn County","Minnesota","Central"
+"1206","56009","27043","043","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1207","56057","27079","079","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Le Sueur County","Minnesota","Outlying"
+"1208","56757","27089","089","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1209","56353","27059","059","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Isanti County","Minnesota","Outlying"
+"1210","56353","27095","095","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Mille Lacs County","Minnesota","Outlying"
+"1211","56353","27065","065","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1212","56353","27097","097","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1213","56340","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"1214","56340","27097","097","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1215","56467","27057","057","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1216","56159","27063","063","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1217","56159","27033","033","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1218","56159","27165","165","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1219","56221","27011","011","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1220","56221","27149","149","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1221","56221","27155","155","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1222","56114","27101","101","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1223","55386","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"1224","55386","27019","019","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Carver County","Minnesota","Central"
+"1225","55053","27131","131","27","22060",NA,"378","Faribault-Northfield, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Rice County","Minnesota","Central"
+"1226","55053","27049","049","27","39860",NA,"378","Red Wing, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Goodhue County","Minnesota","Central"
+"1227","55065","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"1228","55065","27049","049","27","39860",NA,"378","Red Wing, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Goodhue County","Minnesota","Central"
+"1229","56025","27043","043","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1230","56025","27013","013","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Blue Earth County","Minnesota","Central"
+"1231","56292","27173","173","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1232","56292","27127","127","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1233","56292","27083","083","27","32140",NA,NA,"Marshall, MN","Micropolitan Statistical Area",NA,NA,"Lyon County","Minnesota","Central"
+"1234","56748","27113","113","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1235","56748","27125","125","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1236","56647","27007","007","27","13420",NA,NA,"Bemidji, MN","Micropolitan Statistical Area",NA,NA,"Beltrami County","Minnesota","Central"
+"1237","56111","27063","063","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1238","56111","27091","091","27","21860",NA,NA,"Fairmont, MN","Micropolitan Statistical Area",NA,NA,"Martin County","Minnesota","Central"
+"1239","56393","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"1240","56538","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"1241","56541","27107","107","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1242","55419","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"1243","55771","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"1244","55771","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"1245","55771","27071","071","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1246","55920","27109","109","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Olmsted County","Minnesota","Central"
+"1247","55920","27039","039","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Dodge County","Minnesota","Outlying"
+"1248","55795","27115","115","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1249","55337","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"1250","55337","27139","139","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Scott County","Minnesota","Central"
+"1251","55333","27015","015","27","35580",NA,"359","New Ulm, MN","Micropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Brown County","Minnesota","Central"
+"1252","55333","27127","127","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1253","55333","27129","129","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1254","55363","27171","171","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Wright County","Minnesota","Central"
+"1255","55363","27019","019","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Carver County","Minnesota","Central"
+"1256","55052","27131","131","27","22060",NA,"378","Faribault-Northfield, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Rice County","Minnesota","Central"
+"1257","55052","27147","147","27","36940",NA,"378","Owatonna, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Steele County","Minnesota","Central"
+"1258","55052","27161","161","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1259","55063","27115","115","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1260","55707","27017","017","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"Carlton County","Minnesota","Outlying"
+"1261","56044","27079","079","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Le Sueur County","Minnesota","Outlying"
+"1262","56044","27143","143","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1263","56044","27139","139","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Scott County","Minnesota","Central"
+"1264","55954","27045","045","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Fillmore County","Minnesota","Outlying"
+"1265","55954","27055","055","27","29100",NA,NA,"La Crosse-Onalaska, WI-MN","Metropolitan Statistical Area",NA,NA,"Houston County","Minnesota","Central"
+"1266","56733","27069","069","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1267","56237","27127","127","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1268","56237","27173","173","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1269","56142","27173","173","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1270","56142","27081","081","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1271","56307","27097","097","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1272","56307","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"1273","55781","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"1274","55781","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"1275","55905","27109","109","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Olmsted County","Minnesota","Central"
+"1276","56744","27119","119","27","24220",NA,NA,"Grand Forks, ND-MN","Metropolitan Statistical Area",NA,NA,"Polk County","Minnesota","Central"
+"1277","56744","27089","089","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1278","56673","27135","135","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1279","56673","27077","077","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1280","56146","27133","133","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1281","55750","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"1282","56010","27013","013","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Blue Earth County","Minnesota","Central"
+"1283","56010","27043","043","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1284","55440","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"1285","56671","27007","007","27","13420",NA,NA,"Bemidji, MN","Micropolitan Statistical Area",NA,NA,"Beltrami County","Minnesota","Central"
+"1286","56395","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"1287","55001","27163","163","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Washington County","Minnesota","Central"
+"1288","55084","27025","025","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Chisago County","Minnesota","Outlying"
+"1289","55810","27017","017","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"Carlton County","Minnesota","Outlying"
+"1290","55810","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"1291","55934","27109","109","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Olmsted County","Minnesota","Central"
+"1292","55931","27055","055","27","29100",NA,NA,"La Crosse-Onalaska, WI-MN","Metropolitan Statistical Area",NA,NA,"Houston County","Minnesota","Central"
+"1293","55368","27019","019","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Carver County","Minnesota","Central"
+"1294","55368","27085","085","27","26780",NA,"378","Hutchinson, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","McLeod County","Minnesota","Central"
+"1295","55076","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"1296","55616","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"1297","55616","27075","075","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"Lake County","Minnesota","Outlying"
+"1298","55720","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"1299","55720","27017","017","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"Carlton County","Minnesota","Outlying"
+"1300","55306","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"1301","55956","27157","157","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Wabasha County","Minnesota","Outlying"
+"1302","55956","27109","109","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Olmsted County","Minnesota","Central"
+"1303","55956","27049","049","27","39860",NA,"378","Red Wing, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Goodhue County","Minnesota","Central"
+"1304","56722","27119","119","27","24220",NA,NA,"Grand Forks, ND-MN","Metropolitan Statistical Area",NA,NA,"Polk County","Minnesota","Central"
+"1305","56361","27041","041","27","10820",NA,NA,"Alexandria, MN","Micropolitan Statistical Area",NA,NA,"Douglas County","Minnesota","Central"
+"1306","56361","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"1307","56283","27129","129","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1308","56283","27127","127","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1309","56143","27063","063","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1310","56141","27101","101","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1311","56141","27105","105","27","49380",NA,NA,"Worthington, MN","Micropolitan Statistical Area",NA,NA,"Nobles County","Minnesota","Central"
+"1312","56557","27087","087","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1313","56557","27107","107","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1314","56557","27029","029","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1315","56475","27097","097","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1316","56475","27153","153","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1317","56630","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"1318","56630","27007","007","27","13420",NA,NA,"Bemidji, MN","Micropolitan Statistical Area",NA,NA,"Beltrami County","Minnesota","Central"
+"1319","56636","27021","021","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Cass County","Minnesota","Outlying"
+"1320","56636","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"1321","56676","27007","007","27","13420",NA,NA,"Bemidji, MN","Micropolitan Statistical Area",NA,NA,"Beltrami County","Minnesota","Central"
+"1322","56676","27029","029","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1323","55373","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"1324","55373","27171","171","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Wright County","Minnesota","Central"
+"1325","55087","27131","131","27","22060",NA,"378","Faribault-Northfield, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Rice County","Minnesota","Central"
+"1326","55603","27075","075","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"Lake County","Minnesota","Outlying"
+"1327","55710","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"1328","56759","27089","089","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1329","56759","27135","135","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1330","56138","27133","133","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1331","56132","27101","101","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1332","56132","27083","083","27","32140",NA,NA,"Marshall, MN","Micropolitan Statistical Area",NA,NA,"Lyon County","Minnesota","Central"
+"1333","56173","27133","133","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1334","56325","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"1335","56321","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"1336","55385","27129","129","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1337","55385","27085","085","27","26780",NA,"378","Hutchinson, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","McLeod County","Minnesota","Central"
+"1338","55385","27143","143","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1339","55106","27123","123","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Ramsey County","Minnesota","Central"
+"1340","55474","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"1341","55612","27031","031","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1342","55332","27103","103","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Nicollet County","Minnesota","Central"
+"1343","55332","27129","129","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1344","55332","27143","143","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1345","56367","27009","009","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Benton County","Minnesota","Central"
+"1346","56367","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"1347","56367","27097","097","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1348","56458","27057","057","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1349","56201","27067","067","27","48820",NA,NA,"Willmar, MN","Micropolitan Statistical Area",NA,NA,"Kandiyohi County","Minnesota","Central"
+"1350","56284","27067","067","27","48820",NA,NA,"Willmar, MN","Micropolitan Statistical Area",NA,NA,"Kandiyohi County","Minnesota","Central"
+"1351","56284","27129","129","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1352","56284","27127","127","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1353","56301","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"1354","56147","27133","133","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1355","56147","27105","105","27","49380",NA,NA,"Worthington, MN","Micropolitan Statistical Area",NA,NA,"Nobles County","Minnesota","Central"
+"1356","56472","27021","021","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Cass County","Minnesota","Outlying"
+"1357","56472","27035","035","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Crow Wing County","Minnesota","Central"
+"1358","56536","27027","027","27","22020",NA,"244","Fargo, ND-MN","Metropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Clay County","Minnesota","Central"
+"1359","56521","27005","005","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1360","56257","27073","073","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1361","56297","27173","173","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1362","56297","27127","127","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1363","56297","27083","083","27","32140",NA,NA,"Marshall, MN","Micropolitan Statistical Area",NA,NA,"Lyon County","Minnesota","Central"
+"1364","56653","27071","071","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1365","55918","27099","099","27","12380",NA,"462","Austin, MN","Micropolitan Statistical Area",NA,"Rochester-Austin, MN","Mower County","Minnesota","Central"
+"1366","56389","27153","153","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1367","55904","27109","109","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Olmsted County","Minnesota","Central"
+"1368","55352","27139","139","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Scott County","Minnesota","Central"
+"1369","55120","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"1370","55024","27037","037","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Dakota County","Minnesota","Central"
+"1371","55069","27115","115","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1372","55069","27025","025","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Chisago County","Minnesota","Outlying"
+"1373","55129","27163","163","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Washington County","Minnesota","Central"
+"1374","55305","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"1375","56058","27103","103","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Nicollet County","Minnesota","Central"
+"1376","56058","27143","143","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1377","56058","27079","079","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Le Sueur County","Minnesota","Outlying"
+"1378","56037","27013","013","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Blue Earth County","Minnesota","Central"
+"1379","56713","27089","089","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1380","56737","27089","089","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1381","56349","27041","041","27","10820",NA,NA,"Alexandria, MN","Micropolitan Statistical Area",NA,NA,"Douglas County","Minnesota","Central"
+"1382","56349","27121","121","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1383","56339","27041","041","27","10820",NA,NA,"Alexandria, MN","Micropolitan Statistical Area",NA,NA,"Douglas County","Minnesota","Central"
+"1384","56339","27051","051","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1385","56352","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"1386","56165","27105","105","27","49380",NA,NA,"Worthington, MN","Micropolitan Statistical Area",NA,NA,"Nobles County","Minnesota","Central"
+"1387","56264","27083","083","27","32140",NA,NA,"Marshall, MN","Micropolitan Statistical Area",NA,NA,"Lyon County","Minnesota","Central"
+"1388","56264","27173","173","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1389","56264","27081","081","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1390","56097","27043","043","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1391","56097","27161","161","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1392","56097","27047","047","27","10660",NA,NA,"Albert Lea, MN","Micropolitan Statistical Area",NA,NA,"Freeborn County","Minnesota","Central"
+"1393","56515","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"1394","56633","27057","057","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1395","56633","27007","007","27","13420",NA,NA,"Bemidji, MN","Micropolitan Statistical Area",NA,NA,"Beltrami County","Minnesota","Central"
+"1396","56633","27021","021","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Cass County","Minnesota","Outlying"
+"1397","56662","27021","021","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Cass County","Minnesota","Outlying"
+"1398","56662","27035","035","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Crow Wing County","Minnesota","Central"
+"1399","55968","27157","157","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Wabasha County","Minnesota","Outlying"
+"1400","56023","27043","043","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1401","56169","27083","083","27","32140",NA,NA,"Marshall, MN","Micropolitan Statistical Area",NA,NA,"Lyon County","Minnesota","Central"
+"1402","56218","27173","173","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1403","56218","27073","073","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1404","56285","27023","023","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1405","56285","27129","129","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1406","55793","27061","061","27","24330",NA,NA,"Grand Rapids, MN","Micropolitan Statistical Area",NA,NA,"Itasca County","Minnesota","Central"
+"1407","56211","27155","155","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1408","56211","27011","011","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1409","56568","27119","119","27","24220",NA,NA,"Grand Forks, ND-MN","Metropolitan Statistical Area",NA,NA,"Polk County","Minnesota","Central"
+"1410","56568","27107","107","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1411","56369","27145","145","27","41060",NA,"378","St. Cloud, MN","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Stearns County","Minnesota","Central"
+"1412","55950","27099","099","27","12380",NA,"462","Austin, MN","Micropolitan Statistical Area",NA,"Rochester-Austin, MN","Mower County","Minnesota","Central"
+"1413","55731","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"1414","55731","27075","075","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"Lake County","Minnesota","Outlying"
+"1415","55335","27103","103","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Nicollet County","Minnesota","Central"
+"1416","55335","27085","085","27","26780",NA,"378","Hutchinson, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","McLeod County","Minnesota","Central"
+"1417","55335","27143","143","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1418","55042","27163","163","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Washington County","Minnesota","Central"
+"1419","55016","27163","163","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Washington County","Minnesota","Central"
+"1420","55011","27003","003","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Anoka County","Minnesota","Central"
+"1421","55436","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"1422","55437","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"1423","55442","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"1424","55443","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"1425","55444","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"1426","55976","27109","109","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Olmsted County","Minnesota","Central"
+"1427","55976","27099","099","27","12380",NA,"462","Austin, MN","Micropolitan Statistical Area",NA,"Rochester-Austin, MN","Mower County","Minnesota","Central"
+"1428","55976","27045","045","27","40340",NA,"462","Rochester, MN","Metropolitan Statistical Area",NA,"Rochester-Austin, MN","Fillmore County","Minnesota","Outlying"
+"1429","56758","27089","089","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1430","56727","27007","007","27","13420",NA,NA,"Bemidji, MN","Micropolitan Statistical Area",NA,NA,"Beltrami County","Minnesota","Central"
+"1431","56727","27089","089","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1432","56364","27035","035","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Crow Wing County","Minnesota","Central"
+"1433","56364","27097","097","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1434","56401","27021","021","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Cass County","Minnesota","Outlying"
+"1435","56401","27035","035","27","14660",NA,NA,"Brainerd, MN","Micropolitan Statistical Area",NA,NA,"Crow Wing County","Minnesota","Central"
+"1436","56308","27041","041","27","10820",NA,NA,"Alexandria, MN","Micropolitan Statistical Area",NA,NA,"Douglas County","Minnesota","Central"
+"1437","56308","27121","121","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1438","56240","27011","011","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1439","56240","27155","155","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1440","56116","27133","133","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1441","56243","27093","093","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1442","56243","27067","067","27","48820",NA,NA,"Willmar, MN","Micropolitan Statistical Area",NA,NA,"Kandiyohi County","Minnesota","Central"
+"1443","56280","27081","081","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1444","56280","27173","173","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1445","56549","27027","027","27","22020",NA,"244","Fargo, ND-MN","Metropolitan Statistical Area",NA,"Fargo-Wahpeton, ND-MN","Clay County","Minnesota","Central"
+"1446","56576","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"1447","56586","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"1448","56646","27029","029","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1449","56646","27119","119","27","24220",NA,NA,"Grand Forks, ND-MN","Metropolitan Statistical Area",NA,NA,"Polk County","Minnesota","Central"
+"1450","56469","27001","001","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1451","55088","27131","131","27","22060",NA,"378","Faribault-Northfield, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Rice County","Minnesota","Central"
+"1452","55088","27139","139","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Scott County","Minnesota","Central"
+"1453","55049","27147","147","27","36940",NA,"378","Owatonna, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Steele County","Minnesota","Central"
+"1454","55049","27131","131","27","22060",NA,"378","Faribault-Northfield, MN","Micropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Rice County","Minnesota","Central"
+"1455","55702","27137","137","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"St. Louis County","Minnesota","Central"
+"1456","56354","27041","041","27","10820",NA,NA,"Alexandria, MN","Micropolitan Statistical Area",NA,NA,"Douglas County","Minnesota","Central"
+"1457","56354","27111","111","27","22260",NA,NA,"Fergus Falls, MN","Micropolitan Statistical Area",NA,NA,"Otter Tail County","Minnesota","Central"
+"1458","56088","27013","013","27","31860",NA,"359","Mankato, MN","Metropolitan Statistical Area",NA,"Mankato-New Ulm, MN","Blue Earth County","Minnesota","Central"
+"1459","56088","27091","091","27","21860",NA,NA,"Fairmont, MN","Micropolitan Statistical Area",NA,NA,"Martin County","Minnesota","Central"
+"1460","56088","27165","165","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1461","56144","27117","117","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1462","56144","27133","133","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1463","55933","27099","099","27","12380",NA,"462","Austin, MN","Micropolitan Statistical Area",NA,"Rochester-Austin, MN","Mower County","Minnesota","Central"
+"1464","55704","27115","115","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1465","56151","27101","101","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1466","55607","27075","075","27","20260",NA,NA,"Duluth, MN-WI","Metropolitan Statistical Area",NA,NA,"Lake County","Minnesota","Outlying"
+"1467","56619","27007","007","27","13420",NA,NA,"Bemidji, MN","Micropolitan Statistical Area",NA,NA,"Beltrami County","Minnesota","Central"
+"1468","56711","27077","077","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1469","56287","27127","127","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"1470","55323","27053","053","27","33460",NA,"378","Minneapolis-St. Paul-Bloomington, MN-WI","Metropolitan Statistical Area",NA,"Minneapolis-St. Paul, MN-WI","Hennepin County","Minnesota","Central"
+"1471","56741","27077","077","27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA

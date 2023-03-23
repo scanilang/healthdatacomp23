@@ -12,7 +12,8 @@ metro_county <- read.xlsx("Data/list1_2020.xlsx", startRow = 3) %>%
 zip_city_county <- read.xlsx("Data/zip_city_county.xlsx") 
 
 crosswalk <- zip_city_county %>% 
-  left_join(metro_county)
+  left_join(metro_county) %>% 
+  distinct(.keep_all = TRUE)
 
 write.csv(crosswalk, "Data/zip_crosswalk.csv")
 

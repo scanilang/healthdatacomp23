@@ -27,3 +27,14 @@ police_score <- read.xlsx("Data/scorecard.xlsx") %>%
   select(department, score)
 
 write.csv(police_score, "Data/department_score.csv")
+
+# social capital variables
+social_cap <- read.xlsx("Data/social capital variables.xlsx")
+
+social_cap_mn <- social_cap %>% 
+  mutate(state.fips = str_sub(FIPS,end= -4),
+         county.fips = str_sub(FIPS, start = 3)) %>% 
+  filter(state.fips == 27) %>% 
+  select(state.fips, county.fips, County_Name, sk2014)
+
+write.csv(social_cap_mn), "social_index_mn.csv")

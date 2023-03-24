@@ -5,6 +5,7 @@ library(stringr)
 # raw data
 cost_util_data <- read.xlsx("Data/BACH Competition Data Set_3.2.2023/BACH Competition_Cost & Utilization Data Set_3.2.2023.xlsx", sheet = 1)
 quality_data <- read.xlsx("Data/BACH Competition Data Set_3.2.2023/BACH Competition_Quality Measures Data Set_3.2.2023.xlsx")
+crosswalk <- read.csv("Data/zip_crosswalk.csv")
 
 ############################################
 # data clean
@@ -30,39 +31,8 @@ data_clean <- quality_data %>%
          group = case_when(subject == "Adult" & time == 12 ~ "Adults 12 Month",
                            subject == "Adult" & time == 6 ~ "Adults 6 Month",
                            subject == "Adol" & time == 12 ~ "Adolescents 12 Month",
-                           subject == "Adol" & time == 6 ~ "Adolescents 6 Month"))
-
-# police data
-police_score <- read.xlsx("Data/scorecard.xlsx") %>% 
-  mutate(score = str_split_i(POLICE.DEPARTMENT, "\\* ", 2),
-         score2 = str_split_i(POLICE.DEPARTMENT, "\\d+. ", 2)) %>% 
-  mutate(city = if_else(is.na(score), score2, score),
-         score = str_extract(city, "\\d+"),
-         department = str_sub(city,end = -4)) %>% 
-  select(department, score)
-
-write.csv(police_score, "Data/department_score.csv")
-
-############################################
-# compare follow up with cost
-############################################
-# by zip code 
-follow_up_by_zip <- data_clean %>% 
-  filter(Clinic.Name != "TOTAL") %>% 
-  filter(Measure.Name == "PHQ-9 Follow-up Rate at 6 Months Adult") %>% 
-  group_by(Clinic.Zip.Code, Measure.Name) %>%  
-  summarize(avg_ratio = mean(Ratio),
-            avg_actual = mean(Actual.Rate),
-            sum  = sum(Denominator))
-
-# by institution
-follow_up_by_group <- data_clean %>% 
-  filter(Clinic.Name == "TOTAL") %>% 
-  group_by(Medical.Group.Name, Measure.Name) %>%  
-  summarize(avg = mean(Ratio)) %>% 
-  left_join(cost_util_data %>% filter(Measurement.Year == 2021), by = c("Medical.Group.Name")) %>% 
-  tidyr::pivot_wider(names_from = "Measure.Name", values_from = "avg")
-
+                           subject == "Adol" & time == 6 ~ "Adolescents 6 Month")) %>% 
+  left_join(crosswalk, by = c("Clinic.Zip.Code" = "Zip.Code"))
 
 ############################################
 # plots
@@ -140,6 +110,7 @@ data_clean %>%
   theme(axis.title.x = element_blank()) +
   geom_vline(aes(xintercept=avg), color="black", linetype="dashed", size=1) +
   ggtitle("Distribution of Ratio PHQ-9 Follow-up Rate by Clinic (2021) ")+
+  xlab("Follow-up Ratio") +
   facet_wrap(~group)
 
 #### Box Plots
@@ -207,6 +178,16 @@ library(maps)
 library(tidycensus)
 options(tigris_use_cache = TRUE)
 
+# by zip code 
+follow_up_by_zip <- data_clean %>% 
+  filter(Clinic.Name != "TOTAL") %>% 
+  filter(Measure.Name == "PHQ-9 Follow-up Rate at 6 Months Adult") %>% 
+  group_by(Clinic.Zip.Code, Measure.Name) %>%  
+  summarize(avg_ratio = mean(Ratio),
+            avg_actual = mean(Actual.Rate),
+            sum  = sum(Denominator),
+            sd = sd(Ratio))
+
 income <- get_acs(
   geography = "zip code tabulation area", 
   variables = "B19013_001",
@@ -233,21 +214,143 @@ mapview(mn_income, zcol = "sum")
 # Association with outcomes
 ############################################
 
-# idea: zip codes with low follow up rates 
-# associated with hospitals in the same zip with high ER and inpatient admission ratio
-follow_up_by_group %>% 
-  filter(Adults.TCOC < 1200) %>% # remove outlier
-  ggplot(aes(x = `PHQ-9 Follow-up Rate at 12 Months Adult`, y = `Adults.TCOC`)) +
-  geom_point()
-  
-follow_up_by_group %>% 
-  ggplot(aes(x = `PHQ-9 Follow-up Rate at 12 Months Adult`, y = `Inpatient.Admission.Ratio`)) +
-  geom_point()
+# follow up ratio vs outcome ratios
+totals <- data_clean %>%  
+  filter(Clinic.Name == "TOTAL", Measure.Name == "PHQ-9 Follow-up Rate at 6 Months Adult") %>% 
+  select(Measurement.Year, Medical.Group.Name, Denominator, Actual.Rate, Expected.Rate, Ratio) 
 
-follow_up_by_group %>% 
-  ggplot(aes(x = `PHQ-9 Follow-up Rate at 12 Months Adult`, y = `ER.Visits.Ratio`)) +
-  geom_point()
+location_main <- data_clean %>% 
+  filter(Measure.Name == "PHQ-9 Follow-up Rate at 6 Months Adult") %>% 
+  filter(Clinic.Name != "TOTAL") %>% 
+  group_by(Medical.Group.Name, County) %>% 
+  summarize(n = n())  %>% 
+  arrange(Medical.Group.Name, desc(n)) %>% 
+  ungroup() %>% 
+  distinct(Medical.Group.Name, .keep_all = T) %>% 
+  left_join(cost_util_data %>% filter(Measurement.Year == 2021)) %>% 
+  left_join(totals)
 
-follow_up_by_zip %>% 
-  ggplot(aes(x = `PHQ-9 Follow-up Rate at 12 Months Adult`, y = `ER.Visits.Ratio`)) +
-  geom_point()
+# those with higher follow up ratio have lower ER ratio, lower inpatient.admissions ratio
+location_main %>% 
+  ggplot(aes(x = Ratio, y = ER.Visits.Ratio)) +
+  stat_smooth(method = "lm", col = "red") +
+  geom_point() + 
+  ggtitle("Ratio vs ER Visits Ratio")
+
+location_main %>% 
+  ggplot(aes(x = Ratio, y = Inpatient.Admission.Ratio)) +
+  stat_smooth(method = "lm", col = "red") +
+  geom_point() + 
+  ggtitle("Ratio vs Inpatient Admission Ratio")
+
+location_main %>% 
+  #filter(Primary.Care.Visits.Ratio < 1.2) %>% 
+  ggplot(aes(x = Ratio, y = Primary.Care.Visits.Ratio)) +
+  stat_smooth(method = "lm", col = "red") +
+  geom_point() + 
+  ggtitle("Ratio vs Primary Care Ratio")
+
+mod1 <- lm(Ratio ~ ER.Visits.Ratio + Inpatient.Admission.Ratio, 
+           data = location_main )
+summary(mod1)
+
+# county performance
+follow_up_county <- data_clean %>% 
+  filter(Measure.Name == "PHQ-9 Follow-up Rate at 6 Months Adult") %>% 
+  filter(Clinic.Name != "TOTAL") %>%
+  group_by(County, Measurement.Year) %>% 
+  summarize(avg_actual = mean(Actual.Rate),
+            avg_ratio = mean(Ratio))
+
+outcome_county <- location_main %>% 
+  group_by(County) %>%  
+  summarize(avg_inpatient = mean(Inpatient.Admission.Ratio),
+            avg_ER = mean(ER.Visits.Ratio))
+
+country_perf <- left_join(follow_up_county, outcome_county)
+
+country_perf %>% 
+  filter(avg_ratio > 0.4) %>% 
+  ggplot(aes(x = avg_ratio, y = avg_inpatient)) +
+  stat_smooth(method = "lm", col = "red") +
+  geom_point() + 
+  ggtitle("Ratio vs Inpatient Admission Ratio (County)")
+
+country_perf %>% 
+  filter(avg_ratio > 0.4) %>% 
+  ggplot(aes(x = avg_ratio, y = avg_ER)) +
+  stat_smooth(method = "lm", col = "red") +
+  geom_point() + 
+  ggtitle("Ratio vs Inpatient Admission Ratio (County)")
+
+mod2 <- lm(avg_ratio ~ avg_ER + avg_inpatient, 
+           data = country_perf  %>%  filter(avg_ratio > 0.4) )
+summary(mod2)
+
+# city performance
+
+location_main_city <- data_clean %>% 
+  filter(Measure.Name == "PHQ-9 Follow-up Rate at 6 Months Adult") %>% 
+  filter(Clinic.Name != "TOTAL") %>% 
+  group_by(Medical.Group.Name, City) %>% 
+  summarize(n = n())  %>% 
+  arrange(Medical.Group.Name, desc(n)) %>% 
+  ungroup() %>% 
+  distinct(Medical.Group.Name, .keep_all = T) %>% 
+  left_join(cost_util_data %>% filter(Measurement.Year == 2021)) %>% 
+  left_join(totals)
+
+follow_up_city <- data_clean %>% 
+  filter(Measure.Name == "PHQ-9 Follow-up Rate at 6 Months Adult") %>% 
+  filter(Clinic.Name != "TOTAL") %>%
+  group_by(City, Measurement.Year) %>% 
+  summarize(avg_actual = mean(Actual.Rate),
+            avg_ratio = mean(Ratio),
+            avg_denom = mean(Denominator))
+
+outcome_city <- location_main_city %>% 
+  group_by(City) %>%  
+  summarize(avg_inpatient = mean(Inpatient.Admission.Ratio),
+            avg_ER = mean(ER.Visits.Ratio),
+            sum_inpatient = sum(Inpatient.Admissions.Actual),
+            sum_ER = sum(ER.Visits.Actual),
+            avg_inpat_actual = mean(Inpatient.Admissions.Actual))
+
+city_perf <- left_join(follow_up_city, outcome_city)
+
+city_perf %>% 
+  ggplot(aes(x = avg_actual, y = avg_inpatient)) +
+  stat_smooth(method = "lm", col = "red") +
+  geom_point() + 
+  ggtitle("Actual Ratio vs Inpatient Admission Ratio (City)")
+
+city_perf %>% 
+  ggplot(aes(x = avg_denom, y = avg_inpat_actual)) +
+  stat_smooth(method = "lm", col = "red") +
+  geom_point() + 
+  ggtitle("Actual Ratio vs Inpatient Admission Ratio (City)")
+
+city_perf %>% 
+  ggplot(aes(x = avg_ratio, y = avg_ER)) +
+  stat_smooth(method = "lm", col = "red") +
+  geom_point() + 
+  ggtitle("Ratio vs Inpatient Admission Ratio (City)")
+
+city_perf %>% 
+  filter(sum_denom < 500) %>% 
+  ggplot(aes(x = sum_denom, y = sum_inpatient)) +
+  stat_smooth(method = "lm", col = "red") +
+  geom_point() + 
+  ggtitle("Ratio vs Inpatient Admission Ratio (City)")
+
+city_perf %>% 
+  #filter(sum_denom < 500, sum_ER < 250) %>% 
+  ggplot(aes(x = avg_ratio, y = sum_ER)) +
+  stat_smooth(method = "lm", col = "red") +
+  geom_point() + 
+  ggtitle("Ratio vs Inpatient Admission Ratio (City)")
+
+mod3 <- lm(avg_ratio ~ avg_ER + avg_inpatient, 
+           data = city_perf)
+summary(mod3)
+

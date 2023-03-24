@@ -45,7 +45,7 @@ educ_attain_data <- as.data.frame(t(educ_attain_data[c(1,17), -1])) %>%
   dplyr::filter(str_detect(`1`, "County, Minnesota!!Percent!!Estimate")) %>%
   mutate(county = word(`1`, 1, sep = " County"),
          educ_pct = as.numeric(word(`17`, 1, sep = "%")))
-# transit_data$name <- str_sub(transit_data$name, 2, -2)
+ transit_data$name <- str_sub(transit_data$name, 2, -2)
 
 data_phq9 <- quality_data_adj %>% dplyr::filter(str_detect(`Measure Name`, "PHQ-9") & `Clinic Name` != "TOTAL")
 
@@ -61,7 +61,7 @@ combined_data <- data_phq9 %>%
   left_join(transit_data, by = c('County' = 'name')) %>%
   left_join(educ_attain_data, by = c('County' = 'county')) %>%
   select("Measurement Year", "Measure Name", "Statewide Average", "Medical Group Name", "Clinic Name", 
-         "Clinic City", "Clinic Zip Code", "Denominator", "Actual Rate", "Expected Rate", "Healthscore Rating",
+         "Clinic City", "Clinic Zip Code", "Denominator", "Actual Rate", "Expected Rate", "Ratio", "Healthscore Rating",
          "County", "Metropolitan.Micropolitan.Statistical.Area", "FIPS.County.Code", "police_score", "sk2014",
          "total_covid_count21", "Days.with.AQI", "Good.Days", "Unhealthy.Days", "Max.AQI", "Median.AQI",
          #"population", "households", "alltransit_performance_score", 

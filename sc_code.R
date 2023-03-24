@@ -13,7 +13,7 @@ crosswalk <- read.csv("Data/zip_crosswalk.csv")
 # restrict to year 2021 and clinics with phq 
 # change medical group to match cost data
 data_clean <- quality_data %>% 
-  filter(Measurement.Year == '2021') %>% 
+  #filter(Measurement.Year == '2021') %>% 
   filter(Measure.Name %in% unique(quality_data$Measure.Name)[6:17]) %>% 
   mutate(Medical.Group.Name = case_when(str_detect(Clinic.Name, "EH East") == TRUE ~ "Essentia Health - East Region", # in 2019 it is East not East Region
                                         str_detect(Clinic.Name, "EH West") == TRUE ~ "Essentia Health - West",
@@ -60,6 +60,7 @@ data_clean %>%
 
 data_clean %>% 
   filter(Clinic.Name != "TOTAL") %>% 
+  filter(Measurement.Year == 2019) %>% 
   mutate(Measure.Name = case_when(str_detect(Measure.Name, "Depression Remission") ~ "Depression Remission Rate",
                                   str_detect(Measure.Name, "Depression Response") ~ "Depression Response Rate",
                                   str_detect(Measure.Name, "PHQ-9 Follow-up Rate") ~ "PHQ-9 Follow-up Rate",
@@ -73,8 +74,29 @@ data_clean %>%
   geom_density(alpha=.2, fill="#FF6666") + 
   theme(axis.title.x = element_blank()) +
   geom_vline(aes(xintercept=avg), color="black", linetype="dashed", size=1) +
-  ggtitle("Distribution of Actual PHQ-9 Follow-up Rate by Clinic (2021) ")+
+  ggtitle("Distribution of Actual PHQ-9 Follow-up Rate by Clinic")+
   facet_wrap(~group)
+
+
+data_clean %>% 
+  filter(Clinic.Name != "TOTAL") %>% 
+  #filter(Measurement.Year == 2021) %>% 
+  mutate(Measure.Name = case_when(str_detect(Measure.Name, "Depression Remission") ~ "Depression Remission Rate",
+                                  str_detect(Measure.Name, "Depression Response") ~ "Depression Response Rate",
+                                  str_detect(Measure.Name, "PHQ-9 Follow-up Rate") ~ "PHQ-9 Follow-up Rate",
+                                  TRUE ~ Measure.Name)) %>% 
+  filter(Measure.Name == "PHQ-9 Follow-up Rate") %>% 
+  group_by(group) %>% 
+  mutate(avg = mean(Actual.Rate)) %>% 
+  ungroup() %>% 
+  ggplot(aes(x = Actual.Rate)) +
+  geom_histogram(aes(y= ..density..))+
+  geom_density(alpha=.2, fill="#FF6666") + 
+  theme(axis.title.x = element_blank()) +
+  geom_vline(aes(xintercept=avg), color="blue1", linetype="dashed", size=1, alpha = .6) +
+  ggtitle("Clinic Distribution of PHQ-9 Follow-up Actual Rate")+
+  facet_wrap(~group)
+
 
 data_clean %>% 
   filter(Clinic.Name == "TOTAL") %>% 
@@ -108,8 +130,8 @@ data_clean %>%
   geom_histogram(aes(y= ..density..))+
   geom_density(alpha=.2, fill="#FF6666") + 
   theme(axis.title.x = element_blank()) +
-  geom_vline(aes(xintercept=avg), color="black", linetype="dashed", size=1) +
-  ggtitle("Distribution of Ratio PHQ-9 Follow-up Rate by Clinic (2021) ")+
+  geom_vline(aes(xintercept=avg), color="blue1", linetype="dashed", size=1, alpha = .6) +
+  ggtitle("Clinic Distribution of PHQ-9 Follow-up Rate Ratio")+
   xlab("Follow-up Ratio") +
   facet_wrap(~group)
 
@@ -144,22 +166,23 @@ data_clean %>%
 
 data_clean %>% 
   filter(Clinic.Name != "TOTAL") %>% 
-  mutate(Measure.Name = case_when(str_detect(Measure.Name, "Depression Remission") ~ "Depression Remission Rate",
-                                  str_detect(Measure.Name, "Depression Response") ~ "Depression Response Rate",
+  mutate(Measure.Name = case_when(str_detect(Measure.Name, "Depression Remission") ~ "Remission Rate",
+                                  str_detect(Measure.Name, "Depression Response") ~ "Response Rate",
                                   str_detect(Measure.Name, "PHQ-9 Follow-up Rate") ~ "PHQ-9 Follow-up Rate",
                                   TRUE ~ Measure.Name)) %>% 
-  ggplot(aes(x = Actual.Rate, y = Measure.Name, fill = Measure.Name)) +
+  rename(`Acutal Rate` = Actual.Rate) %>% 
+  ggplot(aes(x = `Acutal Rate`, y = Measure.Name, fill = Measure.Name)) +
   geom_boxplot() + coord_flip() +
   theme(axis.title.x = element_blank(),
         legend.position="none") +
   scale_fill_brewer(palette="BuPu") + 
-  ggtitle("Depression Measures by Clinic (2021) ")+
+  ggtitle("Clinic Depression Measures")+
   facet_wrap(~group)
 
 data_clean %>% 
   filter(Clinic.Name != "TOTAL") %>% 
-  mutate(Measure.Name = case_when(str_detect(Measure.Name, "Depression Remission") ~ "Depression Remission Rate",
-                                  str_detect(Measure.Name, "Depression Response") ~ "Depression Response Rate",
+  mutate(Measure.Name = case_when(str_detect(Measure.Name, "Depression Remission") ~ "Remission Rate",
+                                  str_detect(Measure.Name, "Depression Response") ~ "Response Rate",
                                   str_detect(Measure.Name, "PHQ-9 Follow-up Rate") ~ "PHQ-9 Follow-up Rate",
                                   TRUE ~ Measure.Name)) %>% 
   ggplot(aes(x = Ratio, y = Measure.Name, fill = Measure.Name)) +
@@ -167,7 +190,7 @@ data_clean %>%
   theme(axis.title.x = element_blank(),
         legend.position="none") +
   scale_fill_brewer(palette="BuPu") + 
-  ggtitle("Depression Measures by Clinic (2021) ")+
+  ggtitle("Clinic Depression Measures")+
   facet_wrap(~group)
 
 ############################################
@@ -195,17 +218,18 @@ income <- get_acs(
   geometry = TRUE
 )
 
-mn_income <- income %>% 
+Minnesota <- income %>% 
   mutate(zip = str_replace(NAME, "ZCTA5 ", ""),
          zip = as.numeric(zip))  %>% 
   filter(zip >= 55001 & zip <= 56763) %>%  # keep minnesota data only
-  left_join(follow_up_by_zip, by = c("zip" = "Clinic.Zip.Code"))
+  left_join(follow_up_by_zip, by = c("zip" = "Clinic.Zip.Code")) %>% 
+  rename(`Actual Rate Average` = avg_actual)
 
 library(mapview)
 
 mapview(mn_income, zcol = "avg_ratio")
 
-mapview(mn_income, zcol = "avg_actual")
+mapview(Minnesota, zcol = "Actual Rate Average")
 
 mapview(mn_income, zcol = "sum")
 
@@ -216,11 +240,11 @@ mapview(mn_income, zcol = "sum")
 
 # follow up ratio vs outcome ratios
 totals <- data_clean %>%  
-  filter(Clinic.Name == "TOTAL", Measure.Name == "PHQ-9 Follow-up Rate at 6 Months Adult") %>% 
+  filter(Clinic.Name == "TOTAL", Measure.Name == "PHQ-9 Follow-up Rate at 12 Months Adult") %>% 
   select(Measurement.Year, Medical.Group.Name, Denominator, Actual.Rate, Expected.Rate, Ratio) 
 
 location_main <- data_clean %>% 
-  filter(Measure.Name == "PHQ-9 Follow-up Rate at 6 Months Adult") %>% 
+  filter(Measure.Name == "PHQ-9 Follow-up Rate at 12 Months Adult") %>% 
   filter(Clinic.Name != "TOTAL") %>% 
   group_by(Medical.Group.Name, County) %>% 
   summarize(n = n())  %>% 
@@ -235,13 +259,17 @@ location_main %>%
   ggplot(aes(x = Ratio, y = ER.Visits.Ratio)) +
   stat_smooth(method = "lm", col = "red") +
   geom_point() + 
-  ggtitle("Ratio vs ER Visits Ratio")
+  ggtitle("Ratio vs ER Visits Ratio") +
+  xlab("PHQ-9 Follow up Rate Ratio") +
+  ylab("ER Visits Ratio")
 
 location_main %>% 
   ggplot(aes(x = Ratio, y = Inpatient.Admission.Ratio)) +
   stat_smooth(method = "lm", col = "red") +
   geom_point() + 
-  ggtitle("Ratio vs Inpatient Admission Ratio")
+  ggtitle("Low Follow up Rates Associated with Higher Inpatient Admission")+
+  xlab("PHQ-9 Follow up Rate Ratio") +
+  ylab("Inpatient Admission Ratio")
 
 location_main %>% 
   #filter(Primary.Care.Visits.Ratio < 1.2) %>% 
@@ -252,6 +280,10 @@ location_main %>%
 
 mod1 <- lm(Ratio ~ ER.Visits.Ratio + Inpatient.Admission.Ratio, 
            data = location_main )
+summary(mod1)
+
+mod1 <- lm(Ratio ~ Inpatient.Admission.Ratio, 
+           data = location_main)
 summary(mod1)
 
 # county performance

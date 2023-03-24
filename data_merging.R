@@ -13,7 +13,7 @@ social_cap_data <- read.csv("social_index_mn.csv")
 covid_data <- read.csv("Data/time_series_covid19_confirmed_US.csv")
 aqi_data <- read.csv("Data/annual_aqi_by_county_2021.csv") %>% filter(State == "Minnesota")
 educ_attain_data <- read.csv("Data/educational_attainment.csv", header = FALSE)
-# transit_data <- read.csv("Data/alltransit_data_places_27.csv") %>% distinct(name, .keep_all = TRUE)
+transit_data <- read.csv("Data/alltransit_data_places_27.csv") %>% distinct(name, .keep_all = TRUE)
 
 # cleaning data
 quality_data_adj <- quality_data_adj %>% 

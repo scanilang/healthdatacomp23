@@ -16,6 +16,17 @@ educ_attain_data <- read.csv("Data/educational_attainment.csv", header = FALSE)
 # transit_data <- read.csv("Data/alltransit_data_places_27.csv") %>% distinct(name, .keep_all = TRUE)
 
 # cleaning data
+quality_data_adj <- quality_data_adj %>% 
+  mutate(`Clinic City` = case_when(`Clinic City`  == c("Saint Paul", "St Paul") ~ "St. Paul",
+                                   `Clinic City`  == "Inver Grove Hts" ~ "Inver Grove Heights", 
+                                   `Clinic City`  == "Mankato, MN" ~ "Mankato",
+                                   `Clinic City`  == "Mt. Iron" ~ "Mountain Iron",
+                                   `Clinic City`  == "St Cloud" ~ "St. Cloud",
+                                   `Clinic City`  == "Saint Louis Park" ~ "St. Louis Park",
+                                   `Clinic City`  == "Rpbbinsdale" ~ "Robbinsdale",
+                                 TRUE ~ `Clinic City`))
+
+
 police_data$department <- str_trim(police_data$department)
 police_data$department[c(3, 13, 16, 27, 45, 49, 68, 80, 103, 42, 156, 213, 179, 137)] <- 
   c("Preston", "Shoreview", "Chanhassen", "North Oaks", "Vadnais Heights", "East Bethel", 

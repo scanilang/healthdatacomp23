@@ -27,6 +27,7 @@ combined[combined == "Saint Louis"] <- "St. Louis"
 
 by_county <- readxl::read_xlsx("by_county.xlsx") %>%
   filter(`Geography Type` == "County") %>%
+  mutate(Year = as.factor(Year)) %>%
   filter(Year == 2021) %>%
   rename(County = `Geography Name`) %>%
   select(County, Population)
@@ -40,6 +41,10 @@ combined_w_county <- combined %>%
          Name = Measure.Name) %>%
   mutate(Year = as.factor(Year)) %>%
   filter(Name == "PHQ-9 Follow-up Rate at 12 Months Adult")
+
+index <- which(combined_w_county$Year == 2019)
+combined_w_county$covid_count21[index] <- 0 
+combined_w_county$covid_rate[index] <- 0 
 
 combined_w_county <- combined_w_county %>%
   select(Year:County, police_score:covid_count21, Population, covid_rate, educ_pct:homeownershiprate, code) %>%
@@ -64,8 +69,9 @@ combined_w_county <- combined_w_county %>%
 # colnames(education) <- c("County", "Bachelors_and_up")
 # education[2]
 
+# police_score taken out
 model_data <- combined_w_county %>%
-  select(Actual.Rate, police_score, sk2014, covid_rate, educ_pct, mean_walk_score, homeownershiprate, code) %>%
+  select(Year, Actual.Rate, sk2014, covid_rate, educ_pct, mean_walk_score, homeownershiprate, code) %>%
   mutate(code = as.factor(code))
 ```
 
@@ -95,7 +101,7 @@ coef(lasso_model$finalModel, lasso_model$bestTune$lambda)
 ```
 
 ```{r warning=FALSE, message=FALSE, include = FALSE}
-imputed <- mice(model_data, method = "norm", m = 50, maxit = 10)
+imputed <- mice(model_data, method = "norm", m = 50, maxit = 1)
 imp1 <- complete(imputed, action=1)
 ```
 

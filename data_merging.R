@@ -73,7 +73,7 @@ combined_data <- data_phq9 %>%
          #"population", "households", "alltransit_performance_score", 
          "educ_pct", "mean_walk_score", "homeownershiprate")
 
-write.csv(combined_data, "Data/combined.data.csv")
+write.csv(combined_data, "Data/combined_data.csv")
 
 # looking at correlation matrix, suuuuper rough because only looks at complete cases
 numeric_data <- combined_data %>% 

@@ -37,4 +37,4 @@ social_cap_mn <- social_cap %>%
   filter(state.fips == 27) %>% 
   select(state.fips, county.fips, County_Name, sk2014)
 
-write.csv(social_cap_mn), "social_index_mn.csv")
+write.csv(social_cap_mn, "social_index_mn.csv")

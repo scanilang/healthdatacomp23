@@ -13,7 +13,9 @@ social_cap_data <- read.csv("social_index_mn.csv")
 covid_data <- read.csv("Data/time_series_covid19_confirmed_US.csv")
 aqi_data <- read.csv("Data/annual_aqi_by_county_2021.csv") %>% filter(State == "Minnesota")
 educ_attain_data <- read.csv("Data/educational_attainment.csv", header = FALSE)
-transit_data <- read.csv("Data/alltransit_data_places_27.csv") %>% distinct(name, .keep_all = TRUE)
+transit_data <- read.csv("Data/walkscore.csv") %>% filter(STATEFP == 27)
+home_data <- read.csv("Data/homeownership_modified.csv")
+
 
 # cleaning data
 quality_data_adj <- quality_data_adj %>% 
@@ -35,17 +37,20 @@ police_data$department[c(3, 13, 16, 27, 45, 49, 68, 80, 103, 42, 156, 213, 179, 
 colnames(police_data)[3] <- "police_score"
 covid_data <- covid_data %>% 
   filter(Province_State == "Minnesota") %>% 
-  select(!starts_with("X") | ends_with(".21"))
-covid_data$total_covid_count21 <- covid_data %>%
-  select(starts_with("X")) %>%
-  rowSums()
-covid_data <- covid_data %>%
-  select(!starts_with("X"))
+  select(c(1:11, `X12.31.21`)) %>%
+  rename(covid_count21 = X12.31.21)
 educ_attain_data <- as.data.frame(t(educ_attain_data[c(1,17), -1])) %>% 
   dplyr::filter(str_detect(`1`, "County, Minnesota!!Percent!!Estimate")) %>%
   mutate(county = word(`1`, 1, sep = " County"),
          educ_pct = as.numeric(word(`17`, 1, sep = "%")))
- transit_data$name <- str_sub(transit_data$name, 2, -2)
+transit_data <- transit_data %>% group_by(COUNTYFP) %>% summarize(mean_walk_score = mean(NatWalkInd))
+home_data <- home_data %>% 
+  filter(row_number() %% 7 == 1 | row_number() %% 7 == 2) %>% 
+  filter(row_number() != 175 & row_number() != 176)
+home_data <- cbind(home_data %>% select(1) %>% filter(row_number() %% 2 == 1), 
+                   home_data %>% select(2) %>% filter(row_number() %% 2 == 0)) %>%
+  rename(county = X, homeownershiprate = X2017.2021) %>%
+  mutate(homeownershiprate = as.numeric(word(homeownershiprate, 1, sep = "%")))
 
 data_phq9 <- quality_data_adj %>% dplyr::filter(str_detect(`Measure Name`, "PHQ-9") & `Clinic Name` != "TOTAL")
 
@@ -58,16 +63,17 @@ combined_data <- data_phq9 %>%
   left_join(social_cap_data, by = c('FIPS.County.Code' = 'county.fips')) %>%
   left_join(covid_data, by = c('County' = 'Admin2')) %>%
   left_join(aqi_data, by = "County") %>%
-  left_join(transit_data, by = c('County' = 'name')) %>%
+  left_join(transit_data, by = c('FIPS.County.Code' = 'COUNTYFP')) %>%
   left_join(educ_attain_data, by = c('County' = 'county')) %>%
+  left_join(home_data, by = c('County' = 'county')) %>%
   select("Measurement Year", "Measure Name", "Statewide Average", "Medical Group Name", "Clinic Name", 
          "Clinic City", "Clinic Zip Code", "Denominator", "Actual Rate", "Expected Rate", "Ratio", "Healthscore Rating",
          "County", "Metropolitan.Micropolitan.Statistical.Area", "FIPS.County.Code", "police_score", "sk2014",
-         "total_covid_count21", "Days.with.AQI", "Good.Days", "Unhealthy.Days", "Max.AQI", "Median.AQI",
+         "covid_count21", "Days.with.AQI", "Good.Days", "Unhealthy.Days", "Max.AQI", "Median.AQI",
          #"population", "households", "alltransit_performance_score", 
-         "educ_pct")
+         "educ_pct", "mean_walk_score", "homeownershiprate")
 
-write.csv(combined_data, "Data/combined.data.csv")
+write.csv(combined_data, "Data/combined_data.csv")
 
 # looking at correlation matrix, suuuuper rough because only looks at complete cases
 numeric_data <- combined_data %>% 

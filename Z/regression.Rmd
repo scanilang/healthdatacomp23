@@ -1,0 +1,50 @@
+---
+title: "Regression"
+author: "Zuofu Huang"
+date: "2023-03-25"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(readxl)
+```
+
+```{r}
+# 1. Large central metro 2. Large fringe metro 3. medium metro 4. small metro 5. micropolitan 6. non-core
+rural_classification <- read_xlsx("NCHSURCodes2013.xlsx") %>%
+  filter(`State Abr.` == "MN") %>%
+  rename(County = `County name`) %>%
+  rename(code = `2013 code`) %>% 
+  mutate(County = gsub(" County", "", County)) %>%
+  select(County, code)
+
+  
+combined <- read.csv("combined_data.csv")[,-1]
+combined[combined == "Saint Louis"] <- "St. Louis"
+
+by_county <- readxl::read_xlsx("by_county.xlsx") %>%
+  filter(`Geography Type` == "County") %>%
+  filter(Year == 2021) %>%
+  rename(County = `Geography Name`) %>%
+  select(County, Population)
+
+combined_w_county <- combined %>%
+  left_join(by_county, by = "County") %>%
+  mutate(covid_rate = covid_count21/Population) %>%
+  filter(!is.na(County)) %>% # Get rid of county NAs
+  left_join(rural_classification, by = "County") %>%
+  rename(Year = Measurement.Year,
+         Name = Measure.Name) %>%
+  mutate(Year = as.factor(Year)) %>%
+  filter(Name == "PHQ-9 Follow-up Rate at 12 Months Adult")
+
+combined_w_county <- combined_w_county %>%
+  select(Year:County, police_score:covid_count21, Population, covid_rate, educ_pct:homeownershiprate, code)
+
+# Could re-merge COVID data as well based on updates.
+
+
+```
+
+

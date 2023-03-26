@@ -105,21 +105,25 @@ insurance_coverage <- get_acs(
   mutate(insurance_coverage_rate = covered/estimate.y.y) %>%
   select(GEOID, insurance_coverage_rate)
 
-workplace <- get_acs(
+idk_what_this_is <- get_acs(
   geography = "zip code tabulation area", 
   variables = "C24070_053",
   year = 2021) %>%
-  left_join(get_acs(
-    geography = "zip code tabulation area", 
-    variables = "C24070_054",
-    year = 2021), by = "GEOID") %>%
+  left_join(population, by = "GEOID") %>%
+  mutate(idk_rate = estimate.x/estimate.y) %>%
+  select(GEOID, idk_rate)
+  
+workplace <- get_acs(
+  geography = "zip code tabulation area", 
+  variables = "C24070_054",
+  year = 2021) %>%
   left_join(get_acs(
     geography = "zip code tabulation area", 
     variables = "C24070_056",
     year = 2021), by = "GEOID") %>%
-  mutate(public_workplace = estimate.x + estimate.y + estimate) %>%
+  mutate(public_workplace = estimate.x + estimate.y) %>%
   left_join(population, by = "GEOID") %>%
-  mutate(workplace_rate = public_workplace/estimate.y.y) %>%
+  mutate(workplace_rate = public_workplace/estimate) %>%
   select(GEOID, workplace_rate)
 
 public_transit_to_work <- get_acs(
@@ -184,6 +188,7 @@ census_data <- home_ownership %>%
   left_join(workplace, by = "GEOID") %>%
   left_join(public_transit_to_work, by = "GEOID") %>%
   left_join(aggregate_travel_time, by = "GEOID") %>%
+  left_join(idk_what_this_is, by = "GEOID") %>%
   left_join(covid, by = c("GEOID" = "ZIP"))
 
 all_data <- left_join(data_phq9_6month, census_data, by = c("ZIP" = "GEOID")) %>%
@@ -219,7 +224,7 @@ write.csv(all_data, "Data/tidycensus_data.csv")
 mod1 <- lm(data = all_data, `Actual Rate` ~ as.factor(`Measurement Year`) + home_ownership_rate +
              educ_attainment_rate + private_vehicle_rate + insurance_coverage_rate + 
              covid_rate + public_fqhc_ind + as.factor(code) + `Adults TCOC` + workplace_rate + 
-             public_transit_to_work_rate + aggregate_travel_time_rate)
+             public_transit_to_work_rate + aggregate_travel_time_rate + idk_rate + survival::cluster(`Clinic Zip Code`))
 summary(mod1)
 
 

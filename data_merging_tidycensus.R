@@ -15,11 +15,12 @@ quality_data_adj <- quality_data_adj %>%
                                    `Clinic City`  == "St Cloud" ~ "St. Cloud",
                                    `Clinic City`  == "Saint Louis Park" ~ "St. Louis Park",
                                    `Clinic City`  == "Rpbbinsdale" ~ "Robbinsdale",
-                                   TRUE ~ `Clinic City`))
+                                   TRUE ~ `Clinic City`)) 
 
 data_phq9_6month <- quality_data_adj %>% 
   dplyr::filter(`Measure Name` == "PHQ-9 Follow-up Rate at 6 Months Adult" & `Clinic Name` != "TOTAL") %>%
-  dplyr::select(-c(`Statewide Average`, `Expected Rate`, `Ratio`, `Healthscore Rating`))
+  dplyr::select(-c(`Statewide Average`, `Expected Rate`, `Ratio`, `Healthscore Rating`)) %>%
+  mutate(ZIP = as.factor(`Clinic Zip Code`))
 
 
 population <- get_acs(
@@ -39,7 +40,6 @@ home_ownership <- get_acs(
   geography = "zip code tabulation area", 
   variables = "B25106_002",
   year = 2021,
-  geometry = TRUE,
   survey = "acs5"
 ) %>%
   left_join(population, by = "GEOID") %>%
@@ -64,47 +64,43 @@ private_vehicle <- get_acs(
   mutate(private_vehicle_rate = estimate.x/estimate.y) %>%
   select(GEOID, private_vehicle_rate)
 
-employer_based_insurance <- get_acs(
+public_insurance <- get_acs(
   geography = "zip code tabulation area", 
-  variables = "C27004_001",
+  variables = "C27014_001",
   year = 2021
 ) %>%
   left_join(population, by = "GEOID") %>%
-  mutate(employer_based_insurance_rate = estimate.x/estimate.y) %>%
-  select(GEOID, employer_based_insurance_rate)
+  mutate(public_insurance_rate = estimate.x/estimate.y) %>%
+  select(GEOID, public_insurance_rate)
 
-medicare_coverage <- get_acs(
+private_insurance <- get_acs(
   geography = "zip code tabulation area", 
-  variables = "C27006_001",
+  variables = "C27013_001",
   year = 2021
 ) %>%
   left_join(population, by = "GEOID") %>%
-  mutate(medicare_coverage_rate = estimate.x/estimate.y) %>%
-  select(GEOID, medicare_coverage_rate)
+  mutate(private_insurance_rate = estimate.x/estimate.y) %>%
+  select(GEOID, private_insurance_rate)
 
-medicaid_coverage <- get_acs(
-  geography = "zip code tabulation area", 
-  variables = "C27007_001",
-  year = 2021
-) %>%
-  left_join(population, by = "GEOID") %>%
-  mutate(medicaid_coverage_rate = estimate.x/estimate.y) %>%
-  select(GEOID, medicaid_coverage_rate)
-
-health_insurance_coverage <- get_acs(
-    geography = "zip code tabulation area", 
-    variables = "C27016_001",
-    year = 2021
-  ) %>%
-  left_join(population, by = "GEOID") %>%
-  mutate(insurance_coverage_rate = estimate.x/estimate.y) %>%
-  select(GEOID, insurance_coverage_rate)
 
 covid <- read.csv("Data/covid_zip.csv") %>% 
   select(ZIP, Cases) %>%
   mutate(ZIP = as.factor(ZIP)) %>%
-  left_join(population, by = c("ZIP" = "GEOID"))
+  left_join(population, by = c("ZIP" = "GEOID")) %>%
+  mutate(covid_rate = Cases/estimate) %>%
+  select(ZIP, covid_rate)
 
+
+census_data <- home_ownership %>%
+  left_join(educ_attainment, by = "GEOID") %>%
+  left_join(private_vehicle, by = "GEOID") %>%
+  left_join(public_insurance, by = "GEOID") %>%
+  left_join(private_insurance, by = "GEOID") %>%
+  left_join(covid, by = c("GEOID" = "ZIP"))
+
+all_data <- left_join(data_phq9_6month, census_data, by = c("ZIP" = "GEOID"))
+
+write.csv(all_data, "Data/tidycensus_data.csv")
 
 
 # income <- get_acs(

@@ -131,15 +131,6 @@ public_transit_to_work <- get_acs(
   mutate(public_transit_to_work_rate = estimate.x/estimate.y) %>%
   select(GEOID, public_transit_to_work_rate)
 
-public_transit_to_work <- get_acs(
-  geography = "zip code tabulation area", 
-  variables = "B08301_010",
-  year = 2021
-) %>%
-  left_join(population, by = "GEOID") %>%
-  mutate(public_transit_to_work_rate = estimate.x/estimate.y) %>%
-  select(GEOID, public_transit_to_work_rate)
-
 aggregate_travel_time <- get_acs(
   geography = "zip code tabulation area", 
   variables = "B08013_001",
@@ -190,6 +181,9 @@ census_data <- home_ownership %>%
   left_join(educ_attainment, by = "GEOID") %>%
   left_join(private_vehicle, by = "GEOID") %>%
   left_join(insurance_coverage, by = "GEOID") %>%
+  left_join(workplace, by = "GEOID") %>%
+  left_join(public_transit_to_work, by = "GEOID") %>%
+  left_join(aggregate_travel_time, by = "GEOID") %>%
   left_join(covid, by = c("GEOID" = "ZIP"))
 
 all_data <- left_join(data_phq9_6month, census_data, by = c("ZIP" = "GEOID")) %>%

@@ -231,6 +231,21 @@ summary(mod1)
 summary(step(mod1))
 
 
+# --------------------------------------------
+
+all_data$code <- as.factor(all_data$code)
+
+levels(all_data$code) <- c("B","B","M","M","S","S")
+
+
+mod2 <- lm(data = all_data, `Actual Rate` ~ as.factor(`Measurement Year`) + home_ownership_rate +
+             educ_attainment_rate + insurance_coverage_rate + 
+             covid_rate + public_fqhc_ind + private_vehicle_rate * as.factor(code) + `Adults TCOC` + workplace_rate + 
+             public_transit_to_work_rate + aggregate_travel_time_rate)
+summary(mod2)
+
+
+# --------------------------------------------
 
 
 lambda_grid <- 10^seq(-3, 2, length = 1000)
@@ -238,7 +253,8 @@ lambda_grid <- 10^seq(-3, 2, length = 1000)
 # Perform LASSO
 lasso_model <- train(`Actual Rate` ~ as.factor(`Measurement Year`) + home_ownership_rate +
                        educ_attainment_rate + private_vehicle_rate + insurance_coverage_rate + 
-                       covid_rate + public_fqhc_ind + as.factor(code),
+                       covid_rate + public_fqhc_ind + as.factor(code) + `Adults TCOC` + workplace_rate + 
+                       public_transit_to_work_rate + aggregate_travel_time_rate + survival::cluster(ZIP),
   data = all_data,
   method = "glmnet",
   trControl = trainControl(method = "cv", number = 10, selectionFunction = "oneSE"),
@@ -250,4 +266,8 @@ lasso_model <- train(`Actual Rate` ~ as.factor(`Measurement Year`) + home_owners
 lasso_model$bestTune
 coef(lasso_model$finalModel, lasso_model$bestTune$lambda)
 
+
+mod3 <- lm(data = all_data, `Actual Rate` ~ home_ownership_rate +
+             private_vehicle_rate + public_fqhc_ind + as.factor(code) + `Adults TCOC`)
+summary(mod3)
 

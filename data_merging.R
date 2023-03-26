@@ -90,3 +90,11 @@ summary(lm(`Actual Rate` ~ `Adults TCOC` +
              police_score + sk2014 + total_covid_count21 + 
              Median.AQI, data = combined_data))
 
+
+
+
+
+
+#########################################
+
+

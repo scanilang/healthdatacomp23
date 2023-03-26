@@ -221,8 +221,6 @@ mod1 <- lm(data = all_data, `Actual Rate` ~ as.factor(`Measurement Year`) + home
              covid_rate + public_fqhc_ind + as.factor(code) + `Adults TCOC` + workplace_rate + 
              public_transit_to_work_rate + aggregate_travel_time_rate)
 summary(mod1)
-
-
 summary(step(mod1))
 
 
@@ -238,7 +236,6 @@ mod2 <- lm(data = all_data, `Actual Rate` ~ as.factor(`Measurement Year`) + home
              covid_rate + public_fqhc_ind + private_vehicle_rate * as.factor(code) + `Adults TCOC` + workplace_rate + 
              public_transit_to_work_rate + aggregate_travel_time_rate)
 summary(mod2)
-
 summary(step(mod2))
 
 # --------------------------------------------
@@ -263,6 +260,13 @@ lasso_model$bestTune
 coef(lasso_model$finalModel, lasso_model$bestTune$lambda)
 
 
+# --------------------------------------------
+
+
 mod3 <- lm(data = all_data, `Actual Rate` ~ home_ownership_rate +
              private_vehicle_rate + public_fqhc_ind + as.factor(code) + `Adults TCOC`)
 summary(mod3)
+summary(step(mod3))
+
+
+

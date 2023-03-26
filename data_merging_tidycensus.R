@@ -15,7 +15,8 @@ quality_data_adj <- quality_data_adj %>%
                                    `Clinic City`  == "St Cloud" ~ "St. Cloud",
                                    `Clinic City`  == "Saint Louis Park" ~ "St. Louis Park",
                                    `Clinic City`  == "Rpbbinsdale" ~ "Robbinsdale",
-                                   TRUE ~ `Clinic City`)) 
+                                   TRUE ~ `Clinic City`),
+         `Clinic Name` = ifelse(`Clinic Name` == 'Centracare Clinic - SCMG St. Cloud Medical Group â€“ South', "Centracare Clinic - SCMG St. Cloud Medical Group South", str_trim(`Clinic Name`)))
 
 data_phq9_6month <- quality_data_adj %>% 
   dplyr::filter(`Measure Name` == "PHQ-9 Follow-up Rate at 6 Months Adult" & `Clinic Name` != "TOTAL") %>%
@@ -48,39 +49,50 @@ home_ownership <- get_acs(
 
 educ_attainment <- get_acs(
   geography = "zip code tabulation area", 
-  variables = "B15003_001",
-  year = 2021
-) %>%
+  variables = "B15003_022",
+  year = 2021) %>%
+  left_join(get_acs(
+    geography = "zip code tabulation area", 
+    variables = "B15003_023",
+    year = 2021), by = "GEOID") %>%
+  left_join(get_acs(
+    geography = "zip code tabulation area", 
+    variables = "B15003_024",
+    year = 2021), by = "GEOID") %>%
+  left_join(get_acs(
+    geography = "zip code tabulation area", 
+    variables = "B15003_025",
+    year = 2021), by = "GEOID") %>% 
+  mutate(bachelors_up = estimate.x + estimate.y + estimate.x.x + estimate.y.y) %>%
   left_join(population, by = "GEOID") %>%
-  mutate(educ_attainment_rate = estimate.x/estimate.y) %>%
+  mutate(educ_attainment_rate = bachelors_up/estimate) %>%
   select(GEOID, educ_attainment_rate)
 
 private_vehicle <- get_acs(
   geography = "zip code tabulation area", 
-  variables = "B99082_001",
+  variables = "B99082_002",
   year = 2021
 ) %>%
   left_join(population, by = "GEOID") %>%
   mutate(private_vehicle_rate = estimate.x/estimate.y) %>%
   select(GEOID, private_vehicle_rate)
 
-public_insurance <- get_acs(
+insurance_coverage <- get_acs(
   geography = "zip code tabulation area", 
-  variables = "C27014_001",
-  year = 2021
-) %>%
+  variables = "C27012_003",
+  year = 2021) %>%
+  left_join(get_acs(
+    geography = "zip code tabulation area", 
+    variables = "C27012_010",
+    year = 2021), by = "GEOID") %>%
+  left_join(get_acs(
+    geography = "zip code tabulation area", 
+    variables = "C27012_017",
+    year = 2021), by = "GEOID") %>% 
+  mutate(covered = estimate.x + estimate.y + estimate) %>%
   left_join(population, by = "GEOID") %>%
-  mutate(public_insurance_rate = estimate.x/estimate.y) %>%
-  select(GEOID, public_insurance_rate)
-
-private_insurance <- get_acs(
-  geography = "zip code tabulation area", 
-  variables = "C27013_001",
-  year = 2021
-) %>%
-  left_join(population, by = "GEOID") %>%
-  mutate(private_insurance_rate = estimate.x/estimate.y) %>%
-  select(GEOID, private_insurance_rate)
+  mutate(insurance_coverage_rate = covered/estimate.y.y) %>%
+  select(GEOID, insurance_coverage_rate)
 
 
 covid <- read.csv("Data/covid_zip.csv") %>% 
@@ -91,16 +103,46 @@ covid <- read.csv("Data/covid_zip.csv") %>%
   select(ZIP, covid_rate)
 
 
+# classification <- read.csv("Data/clinics.csv") %>%
+#   select(-c(X, X.1, X.2)) %>%
+#   mutate(low.cost.option = ifelse(is.na(low.cost.option), 0, low.cost.option),
+#          FQHC = ifelse(FQHC == "FQHC", 1, 0),
+#          type = ifelse(type == "church", "other", type),
+#          Clinic.Name = ifelse(str_detect(Clinic.Name, "Centracare Clinic - SCMG St. Cloud Medical Group"), "Centracare Clinic - SCMG St. Cloud Medical Group South", str_trim(Clinic.Name)))
+
+classification <- read.csv("Data/clinics.csv") %>%
+  select(-c(X, X.1, X.2)) %>%
+  mutate(public_fqhc_ind = ifelse(type == "public" | FQHC == "FQHC", 1, 0),
+         Clinic.Name = ifelse(str_detect(Clinic.Name, "Centracare Clinic - SCMG St. Cloud Medical Group"), "Centracare Clinic - SCMG St. Cloud Medical Group South", str_trim(Clinic.Name))) %>%
+  select(Clinic.Name, public_fqhc_ind)
+
+
+rural_classification <- read_xlsx("Z/NCHSURCodes2013.xlsx") %>%
+  filter(`State Abr.` == "MN") %>%
+  rename(County = `County name`) %>%
+  rename(code = `2013 code`) %>% 
+  mutate(County = gsub(" County", "", County),
+         County = case_when(County == "St. Louis" ~ "Saint Louis", 
+                            County == "Lac qui Parle" ~ "Lac Qui Parle",
+                            County == "McLeod" ~ "Mcleod",
+                            TRUE ~ County)) %>%
+  select(County, code)
+
+zip_data <- read.csv("Data/zip_crosswalk.csv") %>% select(Zip.Code, County)
+
+
 census_data <- home_ownership %>%
   left_join(educ_attainment, by = "GEOID") %>%
   left_join(private_vehicle, by = "GEOID") %>%
-  left_join(public_insurance, by = "GEOID") %>%
-  left_join(private_insurance, by = "GEOID") %>%
+  left_join(insurance_coverage, by = "GEOID") %>%
   left_join(covid, by = c("GEOID" = "ZIP"))
 
 all_data <- left_join(data_phq9_6month, census_data, by = c("ZIP" = "GEOID")) %>%
   mutate(covid_rate = case_when(`Measurement Year` == 2019 ~ 0,
-            TRUE ~ covid_rate))
+            TRUE ~ covid_rate)) %>%
+  left_join(classification, by = c("Clinic Name" = "Clinic.Name")) %>%
+  left_join(zip_data, by = c(`Clinic Zip Code` = "Zip.Code")) %>%
+  left_join(rural_classification, by = "County")
 
 write.csv(all_data, "Data/tidycensus_data.csv")
 
@@ -124,7 +166,31 @@ write.csv(all_data, "Data/tidycensus_data.csv")
 
 
 mod1 <- lm(data = all_data, `Actual Rate` ~ as.factor(`Measurement Year`) + home_ownership_rate +
-             educ_attainment_rate + private_vehicle_rate + public_insurance_rate + private_insurance_rate + 
-             covid_rate)
+             educ_attainment_rate + private_vehicle_rate + insurance_coverage_rate + 
+             covid_rate + public_fqhc_ind + as.factor(code))
 summary(mod1)
+
+
+summary(step(mod1))
+
+
+
+
+lambda_grid <- 10^seq(-3, 2, length = 1000)
+
+# Perform LASSO
+lasso_model <- train(`Actual Rate` ~ as.factor(`Measurement Year`) + home_ownership_rate +
+                       educ_attainment_rate + private_vehicle_rate + insurance_coverage_rate + 
+                       covid_rate + public_fqhc_ind + as.factor(code),
+  data = all_data,
+  method = "glmnet",
+  trControl = trainControl(method = "cv", number = 10, selectionFunction = "oneSE"),
+  tuneGrid = data.frame(alpha = 1, lambda = lambda_grid),
+  metric = "MAE",
+  na.action = na.omit
+)
+
+lasso_model$bestTune
+coef(lasso_model$finalModel, lasso_model$bestTune$lambda)
+
 

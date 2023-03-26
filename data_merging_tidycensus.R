@@ -98,7 +98,9 @@ census_data <- home_ownership %>%
   left_join(private_insurance, by = "GEOID") %>%
   left_join(covid, by = c("GEOID" = "ZIP"))
 
-all_data <- left_join(data_phq9_6month, census_data, by = c("ZIP" = "GEOID"))
+all_data <- left_join(data_phq9_6month, census_data, by = c("ZIP" = "GEOID")) %>%
+  mutate(covid_rate = case_when(`Measurement Year` == 2019 ~ 0,
+            TRUE ~ covid_rate))
 
 write.csv(all_data, "Data/tidycensus_data.csv")
 
@@ -120,4 +122,9 @@ write.csv(all_data, "Data/tidycensus_data.csv")
 # 
 # write.csv(v19, "vars.csv")
 
+
+mod1 <- lm(data = all_data, `Actual Rate` ~ as.factor(`Measurement Year`) + home_ownership_rate +
+             educ_attainment_rate + private_vehicle_rate + public_insurance_rate + private_insurance_rate + 
+             covid_rate)
+summary(mod1)
 

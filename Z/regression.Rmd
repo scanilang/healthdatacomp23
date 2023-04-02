@@ -1,0 +1,141 @@
+---
+title: "Regression"
+author: "Zuofu Huang"
+date: "2023-03-25"
+output: html_document
+---
+
+```{r warning=FALSE, message=FALSE}
+library(tidyverse)
+library(readxl)
+library(caret)
+library(mice)
+library(lme4)
+library(lmerTest)
+```
+
+```{r warning=FALSE, message=FALSE}
+# 1. Large central metro 2. Large fringe metro 3. medium metro 4. small metro 5. micropolitan 6. non-core
+rural_classification <- read_xlsx("NCHSURCodes2013.xlsx") %>%
+  filter(`State Abr.` == "MN") %>%
+  rename(County = `County name`) %>%
+  rename(code = `2013 code`) %>% 
+  mutate(County = gsub(" County", "", County)) %>%
+  select(County, code)
+
+  
+combined <- read.csv("combined_data.csv")[,-1]
+combined[combined == "Saint Louis"] <- "St. Louis"
+
+by_county <- readxl::read_xlsx("by_county.xlsx") %>%
+  filter(`Geography Type` == "County") %>%
+  mutate(Year = as.factor(Year)) %>%
+  filter(Year == 2021) %>%
+  rename(County = `Geography Name`) %>%
+  select(County, Population)
+
+combined_w_county <- combined %>%
+  left_join(by_county, by = "County") %>%
+  mutate(covid_rate = covid_count21/Population) %>%
+  filter(!is.na(County)) %>% # Get rid of county NAs
+  left_join(rural_classification, by = "County") %>%
+  rename(Year = Measurement.Year,
+         Name = Measure.Name) %>%
+  mutate(Year = as.factor(Year)) %>%
+  filter(Name == "PHQ-9 Follow-up Rate at 12 Months Adult")
+
+index <- which(combined_w_county$Year == 2019)
+combined_w_county$covid_count21[index] <- 0 
+combined_w_county$covid_rate[index] <- 0 
+
+combined_w_county <- combined_w_county %>%
+  select(Year:County, police_score:covid_count21, Population, covid_rate, educ_pct:homeownershiprate, code) %>%
+  select(-sk2014)
+```
+
+```{r warning=FALSE, message=FALSE}
+# colSums(is.na(combined_w_county))
+
+# remerge sk2014 data 
+social_index <- read.csv("../social_index_mn.csv") %>%
+  rename(County = `County_Name`) %>%
+  mutate(County = gsub(" County, MN", "", County)) %>%
+  select(County, sk2014)
+
+combined_w_county <- combined_w_county %>%
+  left_join(social_index, by = "County")
+# 
+# # remerge educational attainment
+# education <- read.csv("../Data/educational_attainment.csv", header = F)
+# education <- as.data.frame(t(education[c(1,17),]))
+# colnames(education) <- c("County", "Bachelors_and_up")
+# education[2]
+
+# police_score taken out
+model_data <- combined_w_county %>%
+  select(Year, Actual.Rate, sk2014, covid_rate, educ_pct, mean_walk_score, homeownershiprate, code, County) %>%
+  mutate(code = as.factor(code))
+```
+
+```{r}
+# Too much data missing. Gotta do imputation or something
+mod1 <- lm(data = model_data, Actual.Rate ~ . - County)
+summary(mod1)
+
+
+mod1 <- lmer(data = model_data, Actual.Rate ~ Year + sk2014 + covid_rate + educ_pct + mean_walk_score + homeownershiprate + code + (1 | County))
+
+summary(mod1)
+```
+
+
+```{r warning=FALSE, message=FALSE}
+lambda_grid <- 10^seq(-3, 2, length = 1000)
+
+# Perform LASSO
+lasso_model <- train(
+  Actual.Rate ~ . - County,
+  data = model_data,
+  method = "glmnet",
+  trControl = trainControl(method = "cv", number = 10, selectionFunction = "oneSE"),
+  tuneGrid = data.frame(alpha = 1, lambda = lambda_grid),
+  metric = "MAE",
+  na.action = na.omit
+)
+
+lasso_model$bestTune
+coef(lasso_model$finalModel, lasso_model$bestTune$lambda)
+
+step(mod1)
+```
+
+```{r warning=FALSE, message=FALSE, include = FALSE}
+imputed <- mice(model_data, method = "norm", m = 50, maxit = 5)
+imp1 <- complete(imputed, action=1)
+```
+
+
+
+```{r}
+# Too much data missing. Gotta do imputation or something
+mod2 <- lm(data = imp1, Actual.Rate ~ . - County)
+summary(mod2)
+
+# Perform LASSO
+lasso_model2 <- train(
+  Actual.Rate ~ .,
+  data = imp1,
+  method = "glmnet",
+  trControl = trainControl(method = "cv", number = 10, selectionFunction = "oneSE"),
+  tuneGrid = data.frame(alpha = 1, lambda = lambda_grid),
+  metric = "RMSE",
+  na.action = na.omit
+)
+
+lasso_model2$bestTune
+coef(lasso_model2$finalModel, lasso_model2$bestTune$lambda)
+```
+
+
+
+

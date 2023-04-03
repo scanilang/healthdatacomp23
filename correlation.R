@@ -77,19 +77,31 @@ for(i in vars){
 table$characteristic = c("Home Ownership", "Covid-19", "Educational Attainment", 
                          "Insurance Coverage", "Government or FQHC", "Private Vehicle", "Rural or Urban",
                          "Travel Time to Work", "Public Transit to Work",
-                         "Educational Services,\n Health Care, Social Assistance\n Non-Profit Employees")
+                         "Educational Services,\nHealth Care, Social Assistance\n Non-Profit Employees")
 
-
-ggplot(table, aes(x=characteristic, y=correlation, ymin=lowerci, ymax=upperci))+
-  geom_pointrange(color = "darkgray")+
-  geom_point(color = "steelblue", size = 3) +
-  geom_hline(yintercept = 0, linetype=2)+
-  coord_flip()+
- # ggtitle("Correlates of PHQ-9 Follow Up Rates") +
+table_ordered <- table %>%
+  mutate(characteristic = factor(characteristic, levels = c("Educational Attainment", 
+                                                            "Educational Services,\nHealth Care, Social Assistance\n Non-Profit Employees",
+                                                            "Insurance Coverage", "Covid-19", "Government or FQHC", "Home Ownership",
+                                                            "Rural or Urban", "Public Transit to Work", "Private Vehicle", "Travel Time to Work"))) %>%
+  arrange(characteristic)
+  
+  
+p <- ggplot(table_ordered, aes(x = characteristic, y = correlation, ymin = lowerci, ymax = upperci)) +
+  geom_linerange(color = "#7a0019", size = 1.5) +
+  geom_point(color = "#7a0019", size = 4) +
+  geom_hline(yintercept = 0, linetype = 2) +
+  ylim(-1, 1) +
+  coord_flip() +
   ylab("Correlation") +
-  labs(caption = "Note: This figure shows the correlation of various community characteristics with PHQ-9 6 month adult follow-up rate\n The horizontal bars show the 95% confidence interval based on standard errors clustered by zip code.")+ 
-  theme(plot.caption = element_text(hjust = 0),
-        axis.title.y  = element_blank())
+  # labs(caption = "Note: This figure shows the correlation of various community characteristics with PHQ-9 6 month adult follow-up rate\n The horizontal bars show the 95% confidence interval based on standard errors clustered by zip code.")+ 
+  theme(plot.caption = element_text(hjust = 0)) + 
+  theme_minimal(base_size = 16) +
+  xlab("")
+
+ggsave("social_corr.png", p, bg = "white", width = 10, height = 8)
+
+
 
 cor.test(combinedata$Actual.Rate, combinedata$educ_attainment_rate)
 test = lm(combinedata$Actual.Rate ~ combinedata$educ_attainment_rate)
@@ -121,15 +133,28 @@ table$characteristic = c("Adults TCOC",
                          "Primary Care Visits Ratio",
                          "Pharmacy Use Ratio")
 
-ggplot(table, aes(x=characteristic, y=correlation, ymin=lowerci, ymax=upperci))+
-  geom_pointrange(color = "darkgray")+
-  geom_point(color = "steelblue", size = 3) +
-  geom_hline(yintercept = 0, linetype=2)+
-  coord_flip()+
+table_ordered <- table %>%
+  mutate(characteristic = factor(characteristic, levels = c("Resource Use Index", "Primary Care Visits Ratio",
+                                                            "Pharmacy Use Ratio", "Inpatient Admission Ratio", 
+                                                            "ER Visits Ratio", "Adults TCOC"))) %>%
+  arrange(characteristic)
+
+
+p <- ggplot(table_ordered, aes(x = characteristic, y = correlation, ymin = lowerci, ymax = upperci)) +
+  geom_linerange(color = "#7a0019", size = 1.5) +
+  geom_point(color = "#7a0019", size = 4) +
+  geom_hline(yintercept = 0, linetype = 2) +
+  ylim(-1, 1) +
+  coord_flip() +
   ylab("Correlation") +
-  labs(caption = "Note: This figure shows the correlation of various Medical Group Characteritics with PHQ-9 6 month adult\n follow-up ratio. The horizontal bars show the 95% confidence interval based on standard errors clustered\n by zip code.")+ 
-  theme(plot.caption = element_text(hjust = 0),
-        axis.title.y  = element_blank())
+  # labs(caption = "Note: This figure shows the correlation of various community characteristics with PHQ-9 6 month adult follow-up rate\n The horizontal bars show the 95% confidence interval based on standard errors clustered by zip code.")+ 
+  theme(plot.caption = element_text(hjust = 0)) + 
+  theme_minimal(base_size = 16) +
+  xlab("")
+
+ggsave("medgroup_corr.png", p, bg = "white", width = 10, height = 8)
+
+
 
 test = lm(scale(Actual.Rate) ~ scale(Adults.TCOC), data = combinedata)
 summary(test)

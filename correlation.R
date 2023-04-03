@@ -134,9 +134,8 @@ table$characteristic = c("Adults TCOC",
                          "Pharmacy Use Ratio")
 
 table_ordered <- table %>%
-  mutate(characteristic = factor(characteristic, levels = c("Resource Use Index", "Primary Care Visits Ratio",
-                                                            "Pharmacy Use Ratio", "Inpatient Admission Ratio", 
-                                                            "ER Visits Ratio", "Adults TCOC"))) %>%
+  mutate(characteristic = factor(characteristic, levels = c("Adults TCOC", "ER Visits Ratio", "Inpatient Admission Ratio",
+                                                            "Pharmacy Use Ratio", "Primary Care Visits Ratio", "Resource Use Index"))) %>%
   arrange(characteristic)
 
 
